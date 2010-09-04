@@ -6,7 +6,6 @@
 #define STRUCTURES_LINKEDLISTRAW_H
 
 #include <iostream>
-
 #define print(x) std::cout<<x<<std::endl;
 
 struct Node {
@@ -37,6 +36,8 @@ public:
         }
         this->length=size-1;
     }
+    void insert(int element);
+    void deleteAt();
 };
 
 #endif //STRUCTURES_LINKEDLISTRAW_H
