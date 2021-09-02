@@ -3,4 +3,4 @@ project(Structures)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Structures main.cpp)
+add_executable(Structures main.cpp ADT/ADT.cpp ADT/ADT.h)

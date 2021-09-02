@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Projects/Clion Projects/Structures/ADT/ADT.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/ADT/ADT.cpp.obj"
   "D:/Projects/Clion Projects/Structures/main.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -141,6 +141,33 @@ Structures/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/build
 .PHONY : Structures/fast
 
+ADT/ADT.obj: ADT/ADT.cpp.obj
+
+.PHONY : ADT/ADT.obj
+
+# target to build an object file
+ADT/ADT.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/ADT/ADT.cpp.obj
+.PHONY : ADT/ADT.cpp.obj
+
+ADT/ADT.i: ADT/ADT.cpp.i
+
+.PHONY : ADT/ADT.i
+
+# target to preprocess a source file
+ADT/ADT.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/ADT/ADT.cpp.i
+.PHONY : ADT/ADT.cpp.i
+
+ADT/ADT.s: ADT/ADT.cpp.s
+
+.PHONY : ADT/ADT.s
+
+# target to generate assembly for a file
+ADT/ADT.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/ADT/ADT.cpp.s
+.PHONY : ADT/ADT.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Structures
+	@echo ... ADT/ADT.obj
+	@echo ... ADT/ADT.i
+	@echo ... ADT/ADT.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

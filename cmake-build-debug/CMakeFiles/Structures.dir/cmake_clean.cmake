@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Structures.dir/ADT/ADT.cpp.obj"
   "CMakeFiles/Structures.dir/main.cpp.obj"
   "Structures.exe"
   "Structures.exe.manifest"
