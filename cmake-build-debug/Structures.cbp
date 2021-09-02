@@ -91,6 +91,12 @@
 		<Unit filename="D:/Projects/Clion Projects/Structures/main.cpp">
 			<Option target="Structures"/>
 		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Structures/util/ArrayInstance.cpp">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Structures/util/ArrayInstance.h">
+			<Option target="Structures"/>
+		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Structures/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

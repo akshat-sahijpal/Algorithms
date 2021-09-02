@@ -195,6 +195,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+util/ArrayInstance.obj: util/ArrayInstance.cpp.obj
+
+.PHONY : util/ArrayInstance.obj
+
+# target to build an object file
+util/ArrayInstance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj
+.PHONY : util/ArrayInstance.cpp.obj
+
+util/ArrayInstance.i: util/ArrayInstance.cpp.i
+
+.PHONY : util/ArrayInstance.i
+
+# target to preprocess a source file
+util/ArrayInstance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/util/ArrayInstance.cpp.i
+.PHONY : util/ArrayInstance.cpp.i
+
+util/ArrayInstance.s: util/ArrayInstance.cpp.s
+
+.PHONY : util/ArrayInstance.s
+
+# target to generate assembly for a file
+util/ArrayInstance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/util/ArrayInstance.cpp.s
+.PHONY : util/ArrayInstance.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -210,6 +237,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... util/ArrayInstance.obj
+	@echo ... util/ArrayInstance.i
+	@echo ... util/ArrayInstance.s
 .PHONY : help
 
 
