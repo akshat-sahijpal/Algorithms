@@ -14,7 +14,13 @@ public:
         int *Array);
     void display();
     void add(int element);
-    ~ADT();
+    void insertAt(int index, int element);
+    void deleteAt(int index);
+    int linearSearch(int element);
+    int get(int index);
+    bool inRange(int element);
+    int max();
+    int min();
 };
 
 #endif //STRUCTURES_ADT_H
