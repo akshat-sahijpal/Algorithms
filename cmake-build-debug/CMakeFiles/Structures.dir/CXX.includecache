@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
+D:/Projects/Clion Projects/Structures/ADT/ADT.h
+iostream
+-
+
 D:/Projects/Clion Projects/Structures/main.cpp
 iostream
 -
+ADT/ADT.h
+D:/Projects/Clion Projects/Structures/ADT/ADT.h
 

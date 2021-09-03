@@ -12,12 +12,13 @@ ADT::ADT(int size, int length, int *Array) {
 
 void ADT::display() {
     for (int i = 0; i < this->size; ++i) {
-        std::cout << this->Array[i];
+        std::cout << "[" << i << "]" << " = " << this->Array[i] << std::endl;
     }
 }
 
-void ADT::add(int element) {
+int* ADT::add(int element) {
     this->Array[this->length++] = element;
+    return this->Array;
 }
 
 /**
@@ -50,11 +51,14 @@ int ADT::linearSearch(int element) {
 int ADT::get(int index) {
    if(inRange(index)) { return this->Array[index]; }
 }
+
 bool ADT::inRange(int index) {
     if(index > 0 && index < this->length) return true;
     return false;
 }
-
+int* ADT::getArray() {
+   return this->Array;
+}
 int ADT::max() {
     int Max = this->Array[0];
     for (int i = 0; i < this->length; ++i) {
@@ -98,4 +102,29 @@ int* ADT::lShift() {//Left Shift Operation
     }
     this->length--;
     return this->Array;
+}
+
+int* ADT::increaseArraySize(int newSize) {
+    int *temp = new int[newSize];
+    for(int i = 0; i < this->length; i++){
+        temp[i] = this->Array[i];// Content Transfer
+    }
+    delete []this->Array;
+    this->Array = temp;
+    temp = nullptr;
+    return this->Array;
+}
+/* int** mv = multiDimensionalArray(10);
+    mv[0][0] = 32;
+    print(mv[0][0])
+    int *newArr = increaseArraySize(arr, 5, 10);
+    newArr[5] = 43;
+    newArr[6] = 343;
+   */
+auto ADT::multiDimensionalArray(int size) {
+    int* multi[size]; // Array of pointers
+    for (int i = 0; i < size; ++i) {
+        multi[i] = new int[size+3]; // 2D Array
+    }
+    return multi;
 }

@@ -13,17 +13,20 @@ public:
         int length,
         int *Array);
     void display();
-    void add(int element);
+    int* add(int element);
     void insertAt(int index, int element);
     void deleteAt(int index);
     int linearSearch(int element);
     int get(int index);
+    int* getArray();
     bool inRange(int element);
     int max();
     int min();
     int* arrrev();
     int* lShift();
     int* lRotate();
+    int* increaseArraySize(int newSize);
+    auto multiDimensionalArray(int size);
 };
 
 #endif //STRUCTURES_ADT_H
