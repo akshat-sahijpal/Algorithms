@@ -128,3 +128,7 @@ auto ADT::multiDimensionalArray(int size) {
     }
     return multi;
 }
+
+ADT::ADT(int size, int length, char *ray) {
+
+}

@@ -27,6 +27,8 @@ public:
     int* lRotate();
     int* increaseArraySize(int newSize);
     auto multiDimensionalArray(int size);
+    ADT(int size, int length, char *ray);
+
 };
 
 #endif //STRUCTURES_ADT_H
