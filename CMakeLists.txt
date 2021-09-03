@@ -3,4 +3,4 @@ project(Structures)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Structures main.cpp ADT/ADT.cpp ADT/ADT.h util/ArrayInstance.cpp util/ArrayInstance.h)
+add_executable(Structures main.cpp scratch/ADT/ADT.cpp scratch/ADT/ADT.h util/ArrayInstance.cpp util/ArrayInstance.h)

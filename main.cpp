@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ADT/ADT.h"
+#include "scratch/ADT/ADT.h"
 #define print(x) std::cout << x << std::endl;
 
 

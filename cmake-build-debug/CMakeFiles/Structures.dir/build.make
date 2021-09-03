@@ -88,18 +88,18 @@ CMakeFiles/Structures.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Structures.dir/main.cpp.s"
 	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\Clion Projects\Structures\main.cpp" -o CMakeFiles\Structures.dir\main.cpp.s
 
-CMakeFiles/Structures.dir/ADT/ADT.cpp.obj: CMakeFiles/Structures.dir/flags.make
-CMakeFiles/Structures.dir/ADT/ADT.cpp.obj: ../ADT/ADT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Projects\Clion Projects\Structures\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Structures.dir/ADT/ADT.cpp.obj"
-	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Structures.dir\ADT\ADT.cpp.obj -c "D:\Projects\Clion Projects\Structures\ADT\ADT.cpp"
+CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj: CMakeFiles/Structures.dir/flags.make
+CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj: ../scratch/ADT/ADT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Projects\Clion Projects\Structures\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj"
+	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Structures.dir\scratch\ADT\ADT.cpp.obj -c "D:\Projects\Clion Projects\Structures\scratch\ADT\ADT.cpp"
 
-CMakeFiles/Structures.dir/ADT/ADT.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Structures.dir/ADT/ADT.cpp.i"
-	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\Clion Projects\Structures\ADT\ADT.cpp" > CMakeFiles\Structures.dir\ADT\ADT.cpp.i
+CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.i"
+	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\Clion Projects\Structures\scratch\ADT\ADT.cpp" > CMakeFiles\Structures.dir\scratch\ADT\ADT.cpp.i
 
-CMakeFiles/Structures.dir/ADT/ADT.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Structures.dir/ADT/ADT.cpp.s"
-	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\Clion Projects\Structures\ADT\ADT.cpp" -o CMakeFiles\Structures.dir\ADT\ADT.cpp.s
+CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.s"
+	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\Clion Projects\Structures\scratch\ADT\ADT.cpp" -o CMakeFiles\Structures.dir\scratch\ADT\ADT.cpp.s
 
 CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj: CMakeFiles/Structures.dir/flags.make
 CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj: ../util/ArrayInstance.cpp
@@ -117,14 +117,14 @@ CMakeFiles/Structures.dir/util/ArrayInstance.cpp.s: cmake_force
 # Object files for target Structures
 Structures_OBJECTS = \
 "CMakeFiles/Structures.dir/main.cpp.obj" \
-"CMakeFiles/Structures.dir/ADT/ADT.cpp.obj" \
+"CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj" \
 "CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj"
 
 # External object files for target Structures
 Structures_EXTERNAL_OBJECTS =
 
 Structures.exe: CMakeFiles/Structures.dir/main.cpp.obj
-Structures.exe: CMakeFiles/Structures.dir/ADT/ADT.cpp.obj
+Structures.exe: CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj
 Structures.exe: CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj
 Structures.exe: CMakeFiles/Structures.dir/build.make
 Structures.exe: CMakeFiles/Structures.dir/linklibs.rsp

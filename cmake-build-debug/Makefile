@@ -141,33 +141,6 @@ Structures/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/build
 .PHONY : Structures/fast
 
-ADT/ADT.obj: ADT/ADT.cpp.obj
-
-.PHONY : ADT/ADT.obj
-
-# target to build an object file
-ADT/ADT.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/ADT/ADT.cpp.obj
-.PHONY : ADT/ADT.cpp.obj
-
-ADT/ADT.i: ADT/ADT.cpp.i
-
-.PHONY : ADT/ADT.i
-
-# target to preprocess a source file
-ADT/ADT.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/ADT/ADT.cpp.i
-.PHONY : ADT/ADT.cpp.i
-
-ADT/ADT.s: ADT/ADT.cpp.s
-
-.PHONY : ADT/ADT.s
-
-# target to generate assembly for a file
-ADT/ADT.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/ADT/ADT.cpp.s
-.PHONY : ADT/ADT.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -194,6 +167,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+scratch/ADT/ADT.obj: scratch/ADT/ADT.cpp.obj
+
+.PHONY : scratch/ADT/ADT.obj
+
+# target to build an object file
+scratch/ADT/ADT.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj
+.PHONY : scratch/ADT/ADT.cpp.obj
+
+scratch/ADT/ADT.i: scratch/ADT/ADT.cpp.i
+
+.PHONY : scratch/ADT/ADT.i
+
+# target to preprocess a source file
+scratch/ADT/ADT.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.i
+.PHONY : scratch/ADT/ADT.cpp.i
+
+scratch/ADT/ADT.s: scratch/ADT/ADT.cpp.s
+
+.PHONY : scratch/ADT/ADT.s
+
+# target to generate assembly for a file
+scratch/ADT/ADT.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.s
+.PHONY : scratch/ADT/ADT.cpp.s
 
 util/ArrayInstance.obj: util/ArrayInstance.cpp.obj
 
@@ -231,12 +231,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Structures
-	@echo ... ADT/ADT.obj
-	@echo ... ADT/ADT.i
-	@echo ... ADT/ADT.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... scratch/ADT/ADT.obj
+	@echo ... scratch/ADT/ADT.i
+	@echo ... scratch/ADT/ADT.s
 	@echo ... util/ArrayInstance.obj
 	@echo ... util/ArrayInstance.i
 	@echo ... util/ArrayInstance.s

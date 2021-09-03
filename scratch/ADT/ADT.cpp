@@ -137,7 +137,7 @@ auto ADT::multiDimensionalArray(int size) {
 }
 
 ADT::ADT(int size, int length, char *ray) {
-    RANGE(0, size) {
+    RANGE (0, size) {
         this->strArr[i] = ray[i];
     }
 }
