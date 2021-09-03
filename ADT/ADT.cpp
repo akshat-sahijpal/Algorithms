@@ -73,3 +73,29 @@ int ADT::min() {
     }
     return Min;
 }
+// Reverses the array
+int* ADT::arrrev() {
+    int* B = new int [this->length];
+    for (int i = this->length, j = 0; i > 0 ; i--, j++) {
+        B[j] = this->Array[i];
+    }// Transfer content
+    for (int i = 0; i < this->length; ++i) {
+        this->Array[i] = B[i];
+    }
+    return this->Array;
+}
+
+int* ADT::lRotate() {// Left Rotate
+    int first = this->Array[0];
+    for (int i = 0; i < this->length; ++i) {
+        this->Array[i] = this->Array[i+1];
+    }
+    this->Array[length-1] = first;
+}
+int* ADT::lShift() {//Left Shift Operation
+    for (int i = 0; i < this->length; ++i) {
+        this->Array[i] = this->Array[i+1];
+    }
+    this->length--;
+    return this->Array;
+}

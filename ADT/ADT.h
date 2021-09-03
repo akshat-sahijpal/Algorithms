@@ -21,6 +21,9 @@ public:
     bool inRange(int element);
     int max();
     int min();
+    int* arrrev();
+    int* lShift();
+    int* lRotate();
 };
 
 #endif //STRUCTURES_ADT_H
