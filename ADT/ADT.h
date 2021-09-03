@@ -8,6 +8,9 @@ class ADT {
     int size;
     int length;
     int *Array;
+    char* strArr;
+    int strSize;
+    int strLength;
 public:
     ADT(int size,
         int length,
