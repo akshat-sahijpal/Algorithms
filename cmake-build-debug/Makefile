@@ -195,6 +195,33 @@ scratch/ADT/ADT.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.s
 .PHONY : scratch/ADT/ADT.cpp.s
 
+scratch/Matricies/Matrices.obj: scratch/Matricies/Matrices.cpp.obj
+
+.PHONY : scratch/Matricies/Matrices.obj
+
+# target to build an object file
+scratch/Matricies/Matrices.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj
+.PHONY : scratch/Matricies/Matrices.cpp.obj
+
+scratch/Matricies/Matrices.i: scratch/Matricies/Matrices.cpp.i
+
+.PHONY : scratch/Matricies/Matrices.i
+
+# target to preprocess a source file
+scratch/Matricies/Matrices.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.i
+.PHONY : scratch/Matricies/Matrices.cpp.i
+
+scratch/Matricies/Matrices.s: scratch/Matricies/Matrices.cpp.s
+
+.PHONY : scratch/Matricies/Matrices.s
+
+# target to generate assembly for a file
+scratch/Matricies/Matrices.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.s
+.PHONY : scratch/Matricies/Matrices.cpp.s
+
 util/ArrayInstance.obj: util/ArrayInstance.cpp.obj
 
 .PHONY : util/ArrayInstance.obj
@@ -237,6 +264,9 @@ help:
 	@echo ... scratch/ADT/ADT.obj
 	@echo ... scratch/ADT/ADT.i
 	@echo ... scratch/ADT/ADT.s
+	@echo ... scratch/Matricies/Matrices.obj
+	@echo ... scratch/Matricies/Matrices.i
+	@echo ... scratch/Matricies/Matrices.s
 	@echo ... util/ArrayInstance.obj
 	@echo ... util/ArrayInstance.i
 	@echo ... util/ArrayInstance.s

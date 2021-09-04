@@ -6,11 +6,23 @@
 
 #IncludeRegexTransform: 
 
-D:/Projects/Clion Projects/Structures/scratch/ADT/ADT.cpp
-ADT.h
+D:/Projects/Clion Projects/Structures/main.cpp
+iostream
+-
+scratch/ADT/ADT.h
 D:/Projects/Clion Projects/Structures/scratch/ADT/ADT.h
+scratch/Matricies/Matrices.h
+D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.h
 
 D:/Projects/Clion Projects/Structures/scratch/ADT/ADT.h
+iostream
+-
+
+D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.cpp
+Matrices.h
+D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.h
+
+D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.h
 iostream
 -
 

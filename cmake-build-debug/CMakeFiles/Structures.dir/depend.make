@@ -3,9 +3,13 @@
 
 CMakeFiles/Structures.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/Structures.dir/main.cpp.obj: ../scratch/ADT/ADT.h
+CMakeFiles/Structures.dir/main.cpp.obj: ../scratch/Matricies/Matrices.h
 
 CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj: ../scratch/ADT/ADT.cpp
 CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj: ../scratch/ADT/ADT.h
+
+CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj: ../scratch/Matricies/Matrices.cpp
+CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj: ../scratch/Matricies/Matrices.h
 
 CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj: ../util/ArrayInstance.cpp
 CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj: ../util/ArrayInstance.h
