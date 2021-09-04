@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/Projects/Clion Projects/Structures/STL/STL.cpp
-STL.h
-D:/Projects/Clion Projects/Structures/STL/STL.h
+D:/Projects/Clion Projects/Structures/main.cpp
+iostream
+-
+scratch/ADT/ADT.h
+D:/Projects/Clion Projects/Structures/scratch/ADT/ADT.h
+scratch/Matricies/Matrices.h
+D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.h
+scratch/LinkedList/LinkedListRaw.h
+D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedListRaw.h
 
-D:/Projects/Clion Projects/Structures/STL/STL.h
+D:/Projects/Clion Projects/Structures/scratch/ADT/ADT.h
+iostream
+-
+
+D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedListRaw.h
+iostream
+-
+
+D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.h
+iostream
+-
 

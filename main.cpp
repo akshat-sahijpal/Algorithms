@@ -1,12 +1,12 @@
 #include <iostream>
 #include "scratch/ADT/ADT.h"
 #include "scratch/Matricies/Matrices.h"
+#include "scratch/LinkedList/LinkedListRaw.h"
 
 #define print(x) std::cout << x << std::endl;
 
-
 int main() {
-    int *arr = new int(5);
+    /*int *arr = new int(5);
 
     for (int i = 0; i < 5; ++i) {
         arr[i] = i + 23;
@@ -23,8 +23,12 @@ int main() {
             std::cout << mat.generateOneMatrix(m, n)[i][j] ;
         }
         std::cout << "\n";
-    }
-
-
+    }*/
+    int* x = new int(3);
+    x[0] = 132;
+    x[1] = 22;
+    x[2] = 43;
+    LinkedList *i = new LinkedList(x, 3);
+   // i->displayList();
     return 0;
 }
