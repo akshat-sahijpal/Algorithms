@@ -4,11 +4,7 @@
 
 #include "ADT.h"
 
-ADT::ADT(int size, int length, int *Array) {
-    this->size = size;
-    this->length = length;
-    this->Array = Array;
-}
+ADT::ADT(int size, int length, int *Array): size(size), length(length), Array(Array) {}
 
 void ADT::display() {
     RANGE(0, this->size) {
@@ -120,14 +116,6 @@ int *ADT::increaseArraySize(int newSize) {
     temp = nullptr;
     return this->Array;
 }
-
-/* int** mv = multiDimensionalArray(10);
-    mv[0][0] = 32;
-    print(mv[0][0])
-    int *newArr = increaseArraySize(arr, 5, 10);
-    newArr[5] = 43;
-    newArr[6] = 343;
-   */
 auto ADT::multiDimensionalArray(int size) {
     int *multi[size]; // Array of pointers
     RANGE(0, size) {
@@ -140,8 +128,4 @@ ADT::ADT(int size, int length, char *ray) {
     RANGE (0, size) {
         this->strArr[i] = ray[i];
     }
-}
-
-void ADT::strlen() {
-
 }

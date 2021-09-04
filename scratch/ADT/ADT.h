@@ -5,6 +5,7 @@
 #define STRUCTURES_ADT_H
 #include <iostream>
 #define RANGE(start, end) for(int i = start; i < end; i++)
+
 class ADT {
     int size;
     int length;

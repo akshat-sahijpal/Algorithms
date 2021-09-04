@@ -141,6 +141,33 @@ Structures/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/build
 .PHONY : Structures/fast
 
+STL/STL.obj: STL/STL.cpp.obj
+
+.PHONY : STL/STL.obj
+
+# target to build an object file
+STL/STL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/STL/STL.cpp.obj
+.PHONY : STL/STL.cpp.obj
+
+STL/STL.i: STL/STL.cpp.i
+
+.PHONY : STL/STL.i
+
+# target to preprocess a source file
+STL/STL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/STL/STL.cpp.i
+.PHONY : STL/STL.cpp.i
+
+STL/STL.s: STL/STL.cpp.s
+
+.PHONY : STL/STL.s
+
+# target to generate assembly for a file
+STL/STL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/STL/STL.cpp.s
+.PHONY : STL/STL.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -258,6 +285,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Structures
+	@echo ... STL/STL.obj
+	@echo ... STL/STL.i
+	@echo ... STL/STL.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
