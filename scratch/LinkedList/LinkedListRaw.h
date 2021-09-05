@@ -4,7 +4,6 @@
 
 #ifndef STRUCTURES_LINKEDLISTRAW_H
 #define STRUCTURES_LINKEDLISTRAW_H
-
 #include <iostream>
 #define print(x) std::cout<<x<<std::endl;
 
@@ -31,13 +30,43 @@ public:
             this->trav->data = initDataSet[i];
             this->trav->nextLink = NULL;
             this->lastNode->nextLink = this->trav;
-            this->lastNode = this->trav;
+            this->lastNode = this->trav;// trav is the last node since it is added finally
             print(this->lastNode->data)
         }
-        this->length=size-1;
+        this->length=size;
     }
-    void insert(int element);
-    void deleteAt();
+    void insert(int element) {
+        auto temp =(struct Node*) malloc(sizeof(struct Node));
+        temp->data = element;
+        temp->nextLink = NULL;
+        this->lastNode->nextLink = temp;
+        this->lastNode = temp;
+        this->length++;
+    }
+    int getLength () {return this->length;}
+    void see() {
+        auto temp = this->firstNode;
+        print("firstNode: ")
+        print(temp->data)
+        for (int i = 0; i < this->length; i++)
+        {
+            print(temp->data)
+            temp = temp->nextLink;
+        }
+    }
+    int peek() {
+      return this->firstNode->data;
+    }
+    void deleteAtIndex(int index) {
+      auto cont = this->firstNode;
+      if(index>this->length) return;
+      for (int i = 0; i < this->length; i++) {
+         if(i == index){
+                auto del = cont->nextLink;
+                
+         }
+         cont = cont->nextLink;
+      }
+    }
 };
-
 #endif //STRUCTURES_LINKEDLISTRAW_H

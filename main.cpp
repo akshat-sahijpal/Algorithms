@@ -5,30 +5,18 @@
 
 #define print(x) std::cout << x << std::endl;
 
-int main() {
-    /*int *arr = new int(5);
-
-    for (int i = 0; i < 5; ++i) {
-        arr[i] = i + 23;
-    }
-    ADT *adt = new ADT(5, 5, arr);
-    adt->display();
-    adt->add(69);
-    print(adt->getArray()[5])
-    print("\n\n")
-    Matrices mat;
-    int m = 4, n = 4;
-    for (int i = 0; i < m; ++i) {
-        for (int j = 0; j < n; ++j) {
-            std::cout << mat.generateOneMatrix(m, n)[i][j] ;
-        }
-        std::cout << "\n";
-    }*/
+int main() { 
     int* x = new int(3);
     x[0] = 132;
     x[1] = 22;
     x[2] = 43;
     LinkedList *i = new LinkedList(x, 3);
-   // i->displayList();
+    for (int j = 0; j < 10; j++)
+    {
+        i->insert(69+j);   
+    } 
+    print("Printing the full list: ")
+    i->see();
+
     return 0;
 }
