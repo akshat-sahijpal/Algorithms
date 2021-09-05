@@ -10,9 +10,11 @@ template<typename t>
 class Stl01{
 public:
 #if PASS_BY_VALUE == 0
-    Stl01(const t& x, const t& y);
+    Stl01(const t& x, const t& y){}
 #else
-  Stl01(t x);
+  Stl01(t x){
+
+    }
 #endif
 };
 #endif //STRUCTURES_STL_H

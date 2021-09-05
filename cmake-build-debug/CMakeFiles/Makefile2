@@ -92,12 +92,12 @@ clean: CMakeFiles/Structures.dir/clean
 CMakeFiles/Structures.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Projects\Clion Projects\Structures\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target Structures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Projects\Clion Projects\Structures\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target Structures"
 .PHONY : CMakeFiles/Structures.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Structures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Projects\Clion Projects\Structures\cmake-build-debug\CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Projects\Clion Projects\Structures\cmake-build-debug\CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Structures.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Projects\Clion Projects\Structures\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Structures.dir/rule
