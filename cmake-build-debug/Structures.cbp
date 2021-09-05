@@ -97,7 +97,10 @@
 		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/ADT/ADT.h">
 			<Option target="Structures"/>
 		</Unit>
-		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedListRaw.cpp">
+		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedList.cpp">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedList.h">
 			<Option target="Structures"/>
 		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedListRaw.h">

@@ -127,18 +127,18 @@ CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.s"
 	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\Clion Projects\Structures\scratch\Matricies\Matrices.cpp" -o CMakeFiles\Structures.dir\scratch\Matricies\Matrices.cpp.s
 
-CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.obj: CMakeFiles/Structures.dir/flags.make
-CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.obj: ../scratch/LinkedList/LinkedListRaw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Projects\Clion Projects\Structures\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.obj"
-	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Structures.dir\scratch\LinkedList\LinkedListRaw.cpp.obj -c "D:\Projects\Clion Projects\Structures\scratch\LinkedList\LinkedListRaw.cpp"
+CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj: CMakeFiles/Structures.dir/flags.make
+CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj: ../scratch/LinkedList/LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Projects\Clion Projects\Structures\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj"
+	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Structures.dir\scratch\LinkedList\LinkedList.cpp.obj -c "D:\Projects\Clion Projects\Structures\scratch\LinkedList\LinkedList.cpp"
 
-CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.i"
-	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\Clion Projects\Structures\scratch\LinkedList\LinkedListRaw.cpp" > CMakeFiles\Structures.dir\scratch\LinkedList\LinkedListRaw.cpp.i
+CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.i"
+	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\Clion Projects\Structures\scratch\LinkedList\LinkedList.cpp" > CMakeFiles\Structures.dir\scratch\LinkedList\LinkedList.cpp.i
 
-CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.s"
-	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\Clion Projects\Structures\scratch\LinkedList\LinkedListRaw.cpp" -o CMakeFiles\Structures.dir\scratch\LinkedList\LinkedListRaw.cpp.s
+CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.s"
+	D:\Msys\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\Clion Projects\Structures\scratch\LinkedList\LinkedList.cpp" -o CMakeFiles\Structures.dir\scratch\LinkedList\LinkedList.cpp.s
 
 # Object files for target Structures
 Structures_OBJECTS = \
@@ -146,7 +146,7 @@ Structures_OBJECTS = \
 "CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj" \
 "CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj" \
 "CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj" \
-"CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.obj"
+"CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj"
 
 # External object files for target Structures
 Structures_EXTERNAL_OBJECTS =
@@ -155,7 +155,7 @@ Structures.exe: CMakeFiles/Structures.dir/main.cpp.obj
 Structures.exe: CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj
 Structures.exe: CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj
 Structures.exe: CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj
-Structures.exe: CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.obj
+Structures.exe: CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj
 Structures.exe: CMakeFiles/Structures.dir/build.make
 Structures.exe: CMakeFiles/Structures.dir/linklibs.rsp
 Structures.exe: CMakeFiles/Structures.dir/objects1.rsp

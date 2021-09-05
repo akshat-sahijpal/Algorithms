@@ -195,32 +195,32 @@ scratch/ADT/ADT.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.s
 .PHONY : scratch/ADT/ADT.cpp.s
 
-scratch/LinkedList/LinkedListRaw.obj: scratch/LinkedList/LinkedListRaw.cpp.obj
+scratch/LinkedList/LinkedList.obj: scratch/LinkedList/LinkedList.cpp.obj
 
-.PHONY : scratch/LinkedList/LinkedListRaw.obj
+.PHONY : scratch/LinkedList/LinkedList.obj
 
 # target to build an object file
-scratch/LinkedList/LinkedListRaw.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.obj
-.PHONY : scratch/LinkedList/LinkedListRaw.cpp.obj
+scratch/LinkedList/LinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj
+.PHONY : scratch/LinkedList/LinkedList.cpp.obj
 
-scratch/LinkedList/LinkedListRaw.i: scratch/LinkedList/LinkedListRaw.cpp.i
+scratch/LinkedList/LinkedList.i: scratch/LinkedList/LinkedList.cpp.i
 
-.PHONY : scratch/LinkedList/LinkedListRaw.i
+.PHONY : scratch/LinkedList/LinkedList.i
 
 # target to preprocess a source file
-scratch/LinkedList/LinkedListRaw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.i
-.PHONY : scratch/LinkedList/LinkedListRaw.cpp.i
+scratch/LinkedList/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.i
+.PHONY : scratch/LinkedList/LinkedList.cpp.i
 
-scratch/LinkedList/LinkedListRaw.s: scratch/LinkedList/LinkedListRaw.cpp.s
+scratch/LinkedList/LinkedList.s: scratch/LinkedList/LinkedList.cpp.s
 
-.PHONY : scratch/LinkedList/LinkedListRaw.s
+.PHONY : scratch/LinkedList/LinkedList.s
 
 # target to generate assembly for a file
-scratch/LinkedList/LinkedListRaw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.s
-.PHONY : scratch/LinkedList/LinkedListRaw.cpp.s
+scratch/LinkedList/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.s
+.PHONY : scratch/LinkedList/LinkedList.cpp.s
 
 scratch/Matricies/Matrices.obj: scratch/Matricies/Matrices.cpp.obj
 
@@ -291,9 +291,9 @@ help:
 	@echo ... scratch/ADT/ADT.obj
 	@echo ... scratch/ADT/ADT.i
 	@echo ... scratch/ADT/ADT.s
-	@echo ... scratch/LinkedList/LinkedListRaw.obj
-	@echo ... scratch/LinkedList/LinkedListRaw.i
-	@echo ... scratch/LinkedList/LinkedListRaw.s
+	@echo ... scratch/LinkedList/LinkedList.obj
+	@echo ... scratch/LinkedList/LinkedList.i
+	@echo ... scratch/LinkedList/LinkedList.s
 	@echo ... scratch/Matricies/Matrices.obj
 	@echo ... scratch/Matricies/Matrices.i
 	@echo ... scratch/Matricies/Matrices.s
