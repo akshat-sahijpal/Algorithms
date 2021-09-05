@@ -9,12 +9,16 @@ int main() {
     x[1] = 22;
     x[2] = 43;
     LinkedList *i = new LinkedList();
-    i->init(x, 13);
+    i->init(x, 3);
     for (int j = 0; j < 10; j++)
     {
         i->insert(69+j);   
     }
     print("Printing the full list: ")
+    i->see();
+    i->insertAtStart(686868686868686);
+    i->see();
+    i->insertAtIndex(3, 80123471203819);
     i->see();
     return 0;
 }
