@@ -195,6 +195,33 @@ scratch/ADT/ADT.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.s
 .PHONY : scratch/ADT/ADT.cpp.s
 
+scratch/CircularLinkedList/CircularLinkedList.obj: scratch/CircularLinkedList/CircularLinkedList.cpp.obj
+
+.PHONY : scratch/CircularLinkedList/CircularLinkedList.obj
+
+# target to build an object file
+scratch/CircularLinkedList/CircularLinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj
+.PHONY : scratch/CircularLinkedList/CircularLinkedList.cpp.obj
+
+scratch/CircularLinkedList/CircularLinkedList.i: scratch/CircularLinkedList/CircularLinkedList.cpp.i
+
+.PHONY : scratch/CircularLinkedList/CircularLinkedList.i
+
+# target to preprocess a source file
+scratch/CircularLinkedList/CircularLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.i
+.PHONY : scratch/CircularLinkedList/CircularLinkedList.cpp.i
+
+scratch/CircularLinkedList/CircularLinkedList.s: scratch/CircularLinkedList/CircularLinkedList.cpp.s
+
+.PHONY : scratch/CircularLinkedList/CircularLinkedList.s
+
+# target to generate assembly for a file
+scratch/CircularLinkedList/CircularLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.s
+.PHONY : scratch/CircularLinkedList/CircularLinkedList.cpp.s
+
 scratch/LinkedList/LinkedList.obj: scratch/LinkedList/LinkedList.cpp.obj
 
 .PHONY : scratch/LinkedList/LinkedList.obj
@@ -291,6 +318,9 @@ help:
 	@echo ... scratch/ADT/ADT.obj
 	@echo ... scratch/ADT/ADT.i
 	@echo ... scratch/ADT/ADT.s
+	@echo ... scratch/CircularLinkedList/CircularLinkedList.obj
+	@echo ... scratch/CircularLinkedList/CircularLinkedList.i
+	@echo ... scratch/CircularLinkedList/CircularLinkedList.s
 	@echo ... scratch/LinkedList/LinkedList.obj
 	@echo ... scratch/LinkedList/LinkedList.i
 	@echo ... scratch/LinkedList/LinkedList.s

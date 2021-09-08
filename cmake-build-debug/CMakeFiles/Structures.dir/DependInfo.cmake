@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Projects/Clion Projects/Structures/main.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/main.cpp.obj"
   "D:/Projects/Clion Projects/Structures/scratch/ADT/ADT.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj"
+  "D:/Projects/Clion Projects/Structures/scratch/CircularLinkedList/CircularLinkedList.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj"
   "D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedList.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj"
   "D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj"
   "D:/Projects/Clion Projects/Structures/util/ArrayInstance.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj"

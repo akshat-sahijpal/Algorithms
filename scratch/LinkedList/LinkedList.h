@@ -8,12 +8,10 @@
 #include <iostream>
 
 #define print(x) std::cout<<x<<std::endl;
-
 struct Node {
     int data;
     struct Node *nextLink;
 };
-
 class LinkedList {
     // when adding element to a list :Last increases
     struct Node *firstNode, *lastNode, *trav;

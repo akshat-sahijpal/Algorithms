@@ -97,19 +97,25 @@
 		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/ADT/ADT.h">
 			<Option target="Structures"/>
 		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/CircularLinkedList/CircularLinkedList.cpp">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/CircularLinkedList/CircularLinkedList.h">
+			<Option target="Structures"/>
+		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedList.cpp">
 			<Option target="Structures"/>
 		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedList.h">
 			<Option target="Structures"/>
 		</Unit>
-		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedListRaw.h">
-			<Option target="Structures"/>
-		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.cpp">
 			<Option target="Structures"/>
 		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.h">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/Util/Node.h">
 			<Option target="Structures"/>
 		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Structures/util/ArrayInstance.cpp">

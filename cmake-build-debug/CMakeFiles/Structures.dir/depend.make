@@ -3,14 +3,16 @@
 
 CMakeFiles/Structures.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/Structures.dir/main.cpp.obj: ../scratch/ADT/ADT.h
-CMakeFiles/Structures.dir/main.cpp.obj: ../scratch/LinkedList/LinkedListRaw.h
 CMakeFiles/Structures.dir/main.cpp.obj: ../scratch/Matricies/Matrices.h
 
 CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj: ../scratch/ADT/ADT.cpp
 CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj: ../scratch/ADT/ADT.h
 
-CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.obj: ../scratch/LinkedList/LinkedListRaw.cpp
-CMakeFiles/Structures.dir/scratch/LinkedList/LinkedListRaw.cpp.obj: ../scratch/LinkedList/LinkedListRaw.h
+CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj: ../scratch/CircularLinkedList/CircularLinkedList.cpp
+CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj: ../scratch/CircularLinkedList/CircularLinkedList.h
+
+CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj: ../scratch/LinkedList/LinkedList.cpp
+CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj: ../scratch/LinkedList/LinkedList.h
 
 CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj: ../scratch/Matricies/Matrices.cpp
 CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj: ../scratch/Matricies/Matrices.h
