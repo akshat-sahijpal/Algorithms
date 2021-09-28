@@ -146,26 +146,37 @@ struct Node *LinkedList::reverseData() {
 /* Reverse the given linked list
  * 2 -> 3 -> 4 -> 5 to 5 -> 4 -> 3 -> 2
  * */
-struct Node* LinkedList::reverseLinkedListElements(Node *list, int size) {
+struct Node *LinkedList::reverseLinkedListElements(Node *list, int size) {
     int *arr = new int[size]; // declare an array to store elements
     int i = 0;
-    struct Node* p = (struct Node *) malloc(sizeof(struct Node));
+    struct Node *p = (struct Node *) malloc(sizeof(struct Node));
     p = list; // declare p with list pointing at first element
-    while(p!=NULL){ // while loop iterates down the linked list
+    while (p != NULL) { // while loop iterates down the linked list
         arr[i++] = p->data;
         p = p->nextLink;
     }
     p = list;
     i--;
-    while (p!=NULL){
+    while (p != NULL) {
         p->data = arr[i--];
-        p=p->nextLink;
+        p = p->nextLink;
     }
     return p;
 }
 
 struct Node *LinkedList::reverseLinkedListLinks(Node *list, int size) {
-// Using Sliding Pointers
-
+// Using Sliding Pointers -> p, q and r
+    struct Node *p;
+    struct Node *q;
+    struct Node *r;
+    p = list;
+    q = NULL;
+    r = NULL;
+    while (p!=NULL){
+        r = q;
+        q = p;
+        p = p->nextLink;
+        q->nextLink = r;
+    }
     return nullptr;
 }
