@@ -115,7 +115,10 @@
 		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.h">
 			<Option target="Structures"/>
 		</Unit>
-		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/Util/Node.h">
+		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/Stack/Stack.cpp">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Structures/scratch/Stack/Stack.h">
 			<Option target="Structures"/>
 		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Structures/util/ArrayInstance.cpp">

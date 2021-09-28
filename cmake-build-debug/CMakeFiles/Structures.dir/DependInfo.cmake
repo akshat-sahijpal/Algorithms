@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Projects/Clion Projects/Structures/scratch/CircularLinkedList/CircularLinkedList.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj"
   "D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedList.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj"
   "D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj"
+  "D:/Projects/Clion Projects/Structures/scratch/Stack/Stack.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj"
   "D:/Projects/Clion Projects/Structures/util/ArrayInstance.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

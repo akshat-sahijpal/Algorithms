@@ -276,6 +276,33 @@ scratch/Matricies/Matrices.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.s
 .PHONY : scratch/Matricies/Matrices.cpp.s
 
+scratch/Stack/Stack.obj: scratch/Stack/Stack.cpp.obj
+
+.PHONY : scratch/Stack/Stack.obj
+
+# target to build an object file
+scratch/Stack/Stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj
+.PHONY : scratch/Stack/Stack.cpp.obj
+
+scratch/Stack/Stack.i: scratch/Stack/Stack.cpp.i
+
+.PHONY : scratch/Stack/Stack.i
+
+# target to preprocess a source file
+scratch/Stack/Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.i
+.PHONY : scratch/Stack/Stack.cpp.i
+
+scratch/Stack/Stack.s: scratch/Stack/Stack.cpp.s
+
+.PHONY : scratch/Stack/Stack.s
+
+# target to generate assembly for a file
+scratch/Stack/Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.s
+.PHONY : scratch/Stack/Stack.cpp.s
+
 util/ArrayInstance.obj: util/ArrayInstance.cpp.obj
 
 .PHONY : util/ArrayInstance.obj
@@ -327,6 +354,9 @@ help:
 	@echo ... scratch/Matricies/Matrices.obj
 	@echo ... scratch/Matricies/Matrices.i
 	@echo ... scratch/Matricies/Matrices.s
+	@echo ... scratch/Stack/Stack.obj
+	@echo ... scratch/Stack/Stack.i
+	@echo ... scratch/Stack/Stack.s
 	@echo ... util/ArrayInstance.obj
 	@echo ... util/ArrayInstance.i
 	@echo ... util/ArrayInstance.s
