@@ -54,6 +54,8 @@ public:
      struct Node* reverseLinkedListElements(Node* list, int size);
 
     struct Node* reverseLinkedListLinks(Node* list, int size);
+
+    struct Node* reverseUsingRecursion(Node *q, Node *p);
 };
 
 #endif //STRUCTURES_LINKEDLIST_H

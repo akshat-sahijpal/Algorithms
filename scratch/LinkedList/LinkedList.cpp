@@ -178,5 +178,14 @@ struct Node *LinkedList::reverseLinkedListLinks(Node *list, int size) {
         p = p->nextLink;
         q->nextLink = r;
     }
-    return nullptr;
+    // q is now the first node
+    return q;
+}
+
+struct Node *LinkedList::reverseUsingRecursion(Node *q, Node *p) {
+    if(p!=NULL){
+        reverseUsingRecursion(p, p->nextLink);
+        q = p->nextLink;
+    }
+    return q;
 }
