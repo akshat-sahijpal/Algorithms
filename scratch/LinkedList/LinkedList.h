@@ -50,6 +50,10 @@ public:
     void insertAtIndex(int index, int element);
 
     struct Node *reverseData();
+
+     struct Node* reverseLinkedListElements(Node* list, int size);
+
+    struct Node* reverseLinkedListLinks(Node* list, int size);
 };
 
 #endif //STRUCTURES_LINKEDLIST_H
