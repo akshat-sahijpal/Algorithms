@@ -7,7 +7,8 @@
 ADT::ADT(int size, int length, int *Array) : size(size), length(length), Array(Array) {}
 
 void ADT::display() {
-    RANGE(0, this->size) {
+    std::cout << "\n";
+    RANGE(0, this->length) {
         std::cout << "[" << i << "]" << " = " << this->Array[i] << std::endl;
     }
 }
@@ -131,3 +132,24 @@ ADT::ADT(int size, int length, char *ray) {
     }
 }
 
+int ADT::binSearch(int beg, int end, int mid, int element) {
+    mid = beg + end / 2;
+    if(element == this->Array[mid])  return mid;
+    else if(element < this->Array[mid]) return binSearch(beg, mid - 1, mid, element);
+    else if (element > this->Array[mid]) return binSearch(mid + 1, end, mid, element);
+}
+
+int ADT::binarySearch(int element) {
+    int beg = 0, end = this->length-1;
+    for (int i = 0; i < this->length; i++) {
+        int midpoint = beg + end / 2;
+        if (element < this->Array[midpoint]) {
+            end = midpoint - 1;
+        } else if (element > this->Array[midpoint]) {
+            beg = midpoint + 1;
+        }
+        if(element == this->Array[midpoint]){
+            return midpoint;
+        }
+    }
+}

@@ -14,19 +14,19 @@ struct Node *LinkedList::init(int *initDataSet, int size) {
     this->firstNode->data = initDataSet[0];
     this->firstNode->nextLink = NULL;
     this->firstNode = this->lastNode;
-    for (int i = 0; i < size; ++i) {
+    for (int i = 1; i < size; ++i) {
         insert(initDataSet[i]);
     }
     this->length = size;
     return this->firstNode;
 }
 
-
+// inserts a new node at the end
 void LinkedList::insert(int element) {
     auto temp = (struct Node *) malloc(sizeof(struct Node));
     temp->data = element;
     temp->nextLink = NULL;
-    this->lastNode->nextLink = temp;
+    this->lastNode->nextLink = temp;// this last node now is no more the last node it is the second last node now, last node being the temp
     this->lastNode = temp;
     this->length++;
 }
@@ -35,9 +35,9 @@ int LinkedList::getLength() {
     return this->length;
 }
 
-void LinkedList::see() {
-    auto temp = this->firstNode;
-    for (int i = 0; i < this->length; i++) {
+void LinkedList::see(struct Node* list, int length) {
+    auto temp = list;
+    for (int i = 0; i < length; i++) {
         print(temp->data)
         temp = temp->nextLink;
     }
@@ -52,16 +52,15 @@ void LinkedList::deleteAtFirst() {
     this->firstNode = this->firstNode->nextLink;
     delete[] first;
 }
-
-void LinkedList::deleteAtIndex(int index) {
-    auto cont = this->firstNode;
-    if (index > this->length) return;
-    for (int i = 0; i < this->length; i++) {
-        if (i == index) {
-            auto del = cont->nextLink;
-
+// Not Built
+void LinkedList::deleteAtElement(int element) {
+    auto firstNode = this->firstNode;
+    int counter = 0;
+    while (firstNode != NULL) {
+        if(firstNode->data == element){
+            auto thatNode = firstNode;
         }
-        cont = cont->nextLink;
+        firstNode = firstNode->nextLink;
     }
 }
 
@@ -131,11 +130,13 @@ void LinkedList::insertAtIndex(int index, int element) {
 
 struct Node *LinkedList::reverseData() {
     int *arr = new int[this->length];
+    auto first = this->firstNode;
     int i = 0;
     while (this->firstNode != NULL) {
         arr[i++] = this->firstNode->data;
         this->firstNode = this->firstNode->nextLink;
     }
+    this->firstNode = first;
     while (this->firstNode != NULL) {
         this->firstNode->data = arr[i--];
         this->firstNode = this->firstNode->nextLink;

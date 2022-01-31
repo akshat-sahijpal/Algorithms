@@ -27,9 +27,11 @@ public:
     int* getArray();
     bool inRange(int element);
     int max();
+    int binSearch(int beg, int end, int mid, int element) ;
     int min();
     int* arrrev();
     int* lShift();
+    int binarySearch (int element);
     int* lRotate();
     int* increaseArraySize(int newSize);
     auto multiDimensionalArray(int size);
