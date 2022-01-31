@@ -248,6 +248,30 @@ scratch/Matricies/Matrices.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.s
 .PHONY : scratch/Matricies/Matrices.cpp.s
 
+scratch/Queues/Queue.obj: scratch/Queues/Queue.cpp.obj
+.PHONY : scratch/Queues/Queue.obj
+
+# target to build an object file
+scratch/Queues/Queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Queues/Queue.cpp.obj
+.PHONY : scratch/Queues/Queue.cpp.obj
+
+scratch/Queues/Queue.i: scratch/Queues/Queue.cpp.i
+.PHONY : scratch/Queues/Queue.i
+
+# target to preprocess a source file
+scratch/Queues/Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Queues/Queue.cpp.i
+.PHONY : scratch/Queues/Queue.cpp.i
+
+scratch/Queues/Queue.s: scratch/Queues/Queue.cpp.s
+.PHONY : scratch/Queues/Queue.s
+
+# target to generate assembly for a file
+scratch/Queues/Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Queues/Queue.cpp.s
+.PHONY : scratch/Queues/Queue.cpp.s
+
 scratch/Stack/Stack.obj: scratch/Stack/Stack.cpp.obj
 .PHONY : scratch/Stack/Stack.obj
 
@@ -320,6 +344,9 @@ help:
 	@echo ... scratch/Matricies/Matrices.obj
 	@echo ... scratch/Matricies/Matrices.i
 	@echo ... scratch/Matricies/Matrices.s
+	@echo ... scratch/Queues/Queue.obj
+	@echo ... scratch/Queues/Queue.i
+	@echo ... scratch/Queues/Queue.s
 	@echo ... scratch/Stack/Stack.obj
 	@echo ... scratch/Stack/Stack.i
 	@echo ... scratch/Stack/Stack.s

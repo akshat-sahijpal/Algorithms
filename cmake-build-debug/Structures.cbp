@@ -115,6 +115,12 @@
 		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/Matricies/Matrices.h">
 			<Option target="Structures"/>
 		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/Queues/Queue.cpp">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/Queues/Queue.h">
+			<Option target="Structures"/>
+		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/Stack/Stack.cpp">
 			<Option target="Structures"/>
 		</Unit>
