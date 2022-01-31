@@ -4,6 +4,7 @@
 #ifndef STRUCTURES_ADT_H
 #define STRUCTURES_ADT_H
 #include <iostream>
+#include <memory>
 #define RANGE(start, end) for(int i = start; i < end; i++)
 
 class ADT {
@@ -34,6 +35,7 @@ public:
     auto multiDimensionalArray(int size);
     ADT(int size, int length, char *ray);
     void strlen();
+    std::unique_ptr<int> addArr(int *i, int *j);
 };
 
 #endif //STRUCTURES_ADT_H
