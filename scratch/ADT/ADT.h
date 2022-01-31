@@ -1,5 +1,5 @@
 //
-// Created by Ghost on 02-09-2021.
+// Created by Akshat on 02-09-2021.
 //
 #ifndef STRUCTURES_ADT_H
 #define STRUCTURES_ADT_H

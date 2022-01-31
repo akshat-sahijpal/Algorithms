@@ -1,21 +1,20 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Projects/Clion Projects/Structures/main.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/main.cpp.obj"
-  "D:/Projects/Clion Projects/Structures/scratch/ADT/ADT.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj"
-  "D:/Projects/Clion Projects/Structures/scratch/CircularLinkedList/CircularLinkedList.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj"
-  "D:/Projects/Clion Projects/Structures/scratch/LinkedList/LinkedList.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj"
-  "D:/Projects/Clion Projects/Structures/scratch/Matricies/Matrices.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj"
-  "D:/Projects/Clion Projects/Structures/scratch/Stack/Stack.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj"
-  "D:/Projects/Clion Projects/Structures/util/ArrayInstance.cpp" "D:/Projects/Clion Projects/Structures/cmake-build-debug/CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/Projects/Clion Projects/Algo 2022/main.cpp" "CMakeFiles/Structures.dir/main.cpp.obj" "gcc" "CMakeFiles/Structures.dir/main.cpp.obj.d"
+  "D:/Projects/Clion Projects/Algo 2022/scratch/ADT/ADT.cpp" "CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj.d"
+  "D:/Projects/Clion Projects/Algo 2022/scratch/CircularLinkedList/CircularLinkedList.cpp" "CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj.d"
+  "D:/Projects/Clion Projects/Algo 2022/scratch/LinkedList/LinkedList.cpp" "CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj.d"
+  "D:/Projects/Clion Projects/Algo 2022/scratch/Matricies/Matrices.cpp" "CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj.d"
+  "D:/Projects/Clion Projects/Algo 2022/scratch/Stack/Stack.cpp" "CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj.d"
+  "D:/Projects/Clion Projects/Algo 2022/util/ArrayInstance.cpp" "CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj" "gcc" "CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj.d"
   )
 
 # Targets to which this target links.

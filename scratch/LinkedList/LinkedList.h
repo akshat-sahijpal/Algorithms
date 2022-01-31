@@ -1,5 +1,5 @@
 //
-// Created by Ghost on 06-09-2021.
+// Created by Akshat on 06-09-2021.
 //
 
 #ifndef STRUCTURES_LINKEDLIST_H

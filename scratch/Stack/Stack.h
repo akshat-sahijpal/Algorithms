@@ -1,5 +1,5 @@
 //
-// Created by Ghost on 28-09-2021.
+// Created by Akshat on 28-09-2021.
 //
 
 #ifndef STRUCTURES_STACK_H

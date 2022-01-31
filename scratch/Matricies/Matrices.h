@@ -1,5 +1,5 @@
 //
-// Created by Ghost on 04-09-2021.
+// Created by Akshat on 04-09-2021.
 //
 
 #ifndef STRUCTURES_MATRICES_H
