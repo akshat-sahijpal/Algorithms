@@ -1,14 +1,11 @@
 //
 // Created by Akshat on 01-02-2022.
 //
-
 #include "Queue.h"
-
 Queue::Queue() {
     this->Rear = nullptr;
     this->front = NULL;// Empty in the start
 }
-
 char* Queue::enqueue(int element) {
     Node* temp = new Node();
     if(temp == NULL){
@@ -39,4 +36,3 @@ int Queue::dequeue() {
     free(temp);
     return element;
 }
-
