@@ -103,6 +103,12 @@
 		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/CircularLinkedList/CircularLinkedList.h">
 			<Option target="Structures"/>
 		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/CircularQueue/CircularQueue.cpp">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/CircularQueue/CircularQueue.h">
+			<Option target="Structures"/>
+		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/LinkedList/LinkedList.cpp">
 			<Option target="Structures"/>
 		</Unit>

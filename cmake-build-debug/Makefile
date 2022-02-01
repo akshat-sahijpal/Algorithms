@@ -200,6 +200,30 @@ scratch/CircularLinkedList/CircularLinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.s
 .PHONY : scratch/CircularLinkedList/CircularLinkedList.cpp.s
 
+scratch/CircularQueue/CircularQueue.obj: scratch/CircularQueue/CircularQueue.cpp.obj
+.PHONY : scratch/CircularQueue/CircularQueue.obj
+
+# target to build an object file
+scratch/CircularQueue/CircularQueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/CircularQueue/CircularQueue.cpp.obj
+.PHONY : scratch/CircularQueue/CircularQueue.cpp.obj
+
+scratch/CircularQueue/CircularQueue.i: scratch/CircularQueue/CircularQueue.cpp.i
+.PHONY : scratch/CircularQueue/CircularQueue.i
+
+# target to preprocess a source file
+scratch/CircularQueue/CircularQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/CircularQueue/CircularQueue.cpp.i
+.PHONY : scratch/CircularQueue/CircularQueue.cpp.i
+
+scratch/CircularQueue/CircularQueue.s: scratch/CircularQueue/CircularQueue.cpp.s
+.PHONY : scratch/CircularQueue/CircularQueue.s
+
+# target to generate assembly for a file
+scratch/CircularQueue/CircularQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/CircularQueue/CircularQueue.cpp.s
+.PHONY : scratch/CircularQueue/CircularQueue.cpp.s
+
 scratch/LinkedList/LinkedList.obj: scratch/LinkedList/LinkedList.cpp.obj
 .PHONY : scratch/LinkedList/LinkedList.obj
 
@@ -338,6 +362,9 @@ help:
 	@echo ... scratch/CircularLinkedList/CircularLinkedList.obj
 	@echo ... scratch/CircularLinkedList/CircularLinkedList.i
 	@echo ... scratch/CircularLinkedList/CircularLinkedList.s
+	@echo ... scratch/CircularQueue/CircularQueue.obj
+	@echo ... scratch/CircularQueue/CircularQueue.i
+	@echo ... scratch/CircularQueue/CircularQueue.s
 	@echo ... scratch/LinkedList/LinkedList.obj
 	@echo ... scratch/LinkedList/LinkedList.i
 	@echo ... scratch/LinkedList/LinkedList.s
