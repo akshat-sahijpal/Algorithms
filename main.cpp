@@ -1,7 +1,7 @@
 #include <iostream>
 #include "scratch/ADT/ADT.h"
 #include "scratch/LinkedList/LinkedList.h"
-#include "scratch/Matricies/Matrices.h"
+#include "scratch/Priority Queue/PQueue.h"
 #define print(x) std::cout << x << std::endl;
 void ADTimpl() {
     int *arr = new int[] {1,2,3,4,5,6};
@@ -23,7 +23,25 @@ void LinkedListImpl() {
     struct Node * List = list->init(set, 6);
     list->see(List, list->getLength());
 }
-int main() {//ADTimpl();
-    LinkedListImpl();
+void PriorityQueue () {
+    PQueue* pQueue = new PQueue();
+    pQueue->enqueue(69, Priority::High);
+    pQueue->enqueue(79, Priority::High);
+    pQueue->enqueue(89, Priority::High);
+    pQueue->enqueue(99, Priority::High);
+    pQueue->enqueue(29, Priority::High);
+    pQueue->enqueue(6931, Priority::Medium);
+    pQueue->enqueue(7931, Priority::Medium);
+    pQueue->enqueue(8931, Priority::Medium);
+    pQueue->enqueue(9931, Priority::Medium);
+    pQueue->enqueue(2931, Priority::Low);
+    pQueue->enqueue(3212, Priority::Low);
+    pQueue->enqueue(3121, Priority::Low);
+    pQueue->enqueue(3271, Priority::Low);
+    pQueue->enqueue(3241, Priority::Low);
+    pQueue->enqueue(3211, Priority::Low);
+    pQueue->watch();
+}
+int main() {
     return 0;
 }

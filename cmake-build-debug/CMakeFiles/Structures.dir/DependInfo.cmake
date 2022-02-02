@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Projects/Clion Projects/Algo 2022/scratch/CircularQueue/CircularQueue.cpp" "CMakeFiles/Structures.dir/scratch/CircularQueue/CircularQueue.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/CircularQueue/CircularQueue.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/scratch/LinkedList/LinkedList.cpp" "CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/scratch/Matricies/Matrices.cpp" "CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj.d"
+  "D:/Projects/Clion Projects/Algo 2022/scratch/Priority Queue/PQueue.cpp" "CMakeFiles/Structures.dir/scratch/Priority_Queue/PQueue.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/Priority_Queue/PQueue.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/scratch/Queues/Queue.cpp" "CMakeFiles/Structures.dir/scratch/Queues/Queue.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/Queues/Queue.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/scratch/Stack/Stack.cpp" "CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/util/ArrayInstance.cpp" "CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj" "gcc" "CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj.d"

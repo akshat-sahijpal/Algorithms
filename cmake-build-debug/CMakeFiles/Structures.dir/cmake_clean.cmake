@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj.d"
   "CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj"
   "CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj.d"
+  "CMakeFiles/Structures.dir/scratch/Priority_Queue/PQueue.cpp.obj"
+  "CMakeFiles/Structures.dir/scratch/Priority_Queue/PQueue.cpp.obj.d"
   "CMakeFiles/Structures.dir/scratch/Queues/Queue.cpp.obj"
   "CMakeFiles/Structures.dir/scratch/Queues/Queue.cpp.obj.d"
   "CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj"

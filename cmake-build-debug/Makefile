@@ -272,6 +272,30 @@ scratch/Matricies/Matrices.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.s
 .PHONY : scratch/Matricies/Matrices.cpp.s
 
+scratch/Priority_Queue/PQueue.obj: scratch/Priority_Queue/PQueue.cpp.obj
+.PHONY : scratch/Priority_Queue/PQueue.obj
+
+# target to build an object file
+scratch/Priority_Queue/PQueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Priority_Queue/PQueue.cpp.obj
+.PHONY : scratch/Priority_Queue/PQueue.cpp.obj
+
+scratch/Priority_Queue/PQueue.i: scratch/Priority_Queue/PQueue.cpp.i
+.PHONY : scratch/Priority_Queue/PQueue.i
+
+# target to preprocess a source file
+scratch/Priority_Queue/PQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Priority_Queue/PQueue.cpp.i
+.PHONY : scratch/Priority_Queue/PQueue.cpp.i
+
+scratch/Priority_Queue/PQueue.s: scratch/Priority_Queue/PQueue.cpp.s
+.PHONY : scratch/Priority_Queue/PQueue.s
+
+# target to generate assembly for a file
+scratch/Priority_Queue/PQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Priority_Queue/PQueue.cpp.s
+.PHONY : scratch/Priority_Queue/PQueue.cpp.s
+
 scratch/Queues/Queue.obj: scratch/Queues/Queue.cpp.obj
 .PHONY : scratch/Queues/Queue.obj
 
@@ -371,6 +395,9 @@ help:
 	@echo ... scratch/Matricies/Matrices.obj
 	@echo ... scratch/Matricies/Matrices.i
 	@echo ... scratch/Matricies/Matrices.s
+	@echo ... scratch/Priority_Queue/PQueue.obj
+	@echo ... scratch/Priority_Queue/PQueue.i
+	@echo ... scratch/Priority_Queue/PQueue.s
 	@echo ... scratch/Queues/Queue.obj
 	@echo ... scratch/Queues/Queue.i
 	@echo ... scratch/Queues/Queue.s
