@@ -10,8 +10,13 @@ public:
     int data;
     Node* lChild;
     Node* rChild;
+    Node(int data){
+        this->data = data;
+        this->lChild = nullptr;
+        this->rChild = nullptr;
+    }
 };
-/*
+/**
  *  The height of a node is the number of edges from the node to the deepest leaf (ie. the longest path from the node to a leaf node).
  *  The depth of a node is the number of edges from the root to the node.
  *  degree of node is no of child nodes
@@ -27,5 +32,10 @@ public:
  *  Representation of b.tree (Array) : Parent = [i], L.child = [2*i], R.child = [2*i + 1]
  *  nulls in b.tree = node+1
  **/
-class Tree{};
+class Tree{
+public:
+    void InOrder(Node* currentNode);
+    void PreOrder(Node* currentNode);
+    void PostOrder(Node* currentNode);
+};
 #endif
