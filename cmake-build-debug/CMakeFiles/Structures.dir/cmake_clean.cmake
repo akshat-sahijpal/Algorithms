@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Structures.dir/scratch/Queues/Queue.cpp.obj.d"
   "CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj"
   "CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj.d"
+  "CMakeFiles/Structures.dir/scratch/Trees/Base/Tree.cpp.obj"
+  "CMakeFiles/Structures.dir/scratch/Trees/Base/Tree.cpp.obj.d"
   "CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj"
   "CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj.d"
   "Structures.exe"

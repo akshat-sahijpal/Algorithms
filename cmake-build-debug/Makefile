@@ -344,6 +344,30 @@ scratch/Stack/Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.s
 .PHONY : scratch/Stack/Stack.cpp.s
 
+scratch/Trees/Base/Tree.obj: scratch/Trees/Base/Tree.cpp.obj
+.PHONY : scratch/Trees/Base/Tree.obj
+
+# target to build an object file
+scratch/Trees/Base/Tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Trees/Base/Tree.cpp.obj
+.PHONY : scratch/Trees/Base/Tree.cpp.obj
+
+scratch/Trees/Base/Tree.i: scratch/Trees/Base/Tree.cpp.i
+.PHONY : scratch/Trees/Base/Tree.i
+
+# target to preprocess a source file
+scratch/Trees/Base/Tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Trees/Base/Tree.cpp.i
+.PHONY : scratch/Trees/Base/Tree.cpp.i
+
+scratch/Trees/Base/Tree.s: scratch/Trees/Base/Tree.cpp.s
+.PHONY : scratch/Trees/Base/Tree.s
+
+# target to generate assembly for a file
+scratch/Trees/Base/Tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Trees/Base/Tree.cpp.s
+.PHONY : scratch/Trees/Base/Tree.cpp.s
+
 util/ArrayInstance.obj: util/ArrayInstance.cpp.obj
 .PHONY : util/ArrayInstance.obj
 
@@ -404,6 +428,9 @@ help:
 	@echo ... scratch/Stack/Stack.obj
 	@echo ... scratch/Stack/Stack.i
 	@echo ... scratch/Stack/Stack.s
+	@echo ... scratch/Trees/Base/Tree.obj
+	@echo ... scratch/Trees/Base/Tree.i
+	@echo ... scratch/Trees/Base/Tree.s
 	@echo ... util/ArrayInstance.obj
 	@echo ... util/ArrayInstance.i
 	@echo ... util/ArrayInstance.s
