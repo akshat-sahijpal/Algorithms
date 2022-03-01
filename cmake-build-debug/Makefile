@@ -320,6 +320,30 @@ scratch/Queues/Queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Queues/Queue.cpp.s
 .PHONY : scratch/Queues/Queue.cpp.s
 
+scratch/Recurrence/RecurrenceRelation.obj: scratch/Recurrence/RecurrenceRelation.cpp.obj
+.PHONY : scratch/Recurrence/RecurrenceRelation.obj
+
+# target to build an object file
+scratch/Recurrence/RecurrenceRelation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Recurrence/RecurrenceRelation.cpp.obj
+.PHONY : scratch/Recurrence/RecurrenceRelation.cpp.obj
+
+scratch/Recurrence/RecurrenceRelation.i: scratch/Recurrence/RecurrenceRelation.cpp.i
+.PHONY : scratch/Recurrence/RecurrenceRelation.i
+
+# target to preprocess a source file
+scratch/Recurrence/RecurrenceRelation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Recurrence/RecurrenceRelation.cpp.i
+.PHONY : scratch/Recurrence/RecurrenceRelation.cpp.i
+
+scratch/Recurrence/RecurrenceRelation.s: scratch/Recurrence/RecurrenceRelation.cpp.s
+.PHONY : scratch/Recurrence/RecurrenceRelation.s
+
+# target to generate assembly for a file
+scratch/Recurrence/RecurrenceRelation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Recurrence/RecurrenceRelation.cpp.s
+.PHONY : scratch/Recurrence/RecurrenceRelation.cpp.s
+
 scratch/Stack/Stack.obj: scratch/Stack/Stack.cpp.obj
 .PHONY : scratch/Stack/Stack.obj
 
@@ -425,6 +449,9 @@ help:
 	@echo ... scratch/Queues/Queue.obj
 	@echo ... scratch/Queues/Queue.i
 	@echo ... scratch/Queues/Queue.s
+	@echo ... scratch/Recurrence/RecurrenceRelation.obj
+	@echo ... scratch/Recurrence/RecurrenceRelation.i
+	@echo ... scratch/Recurrence/RecurrenceRelation.s
 	@echo ... scratch/Stack/Stack.obj
 	@echo ... scratch/Stack/Stack.i
 	@echo ... scratch/Stack/Stack.s
