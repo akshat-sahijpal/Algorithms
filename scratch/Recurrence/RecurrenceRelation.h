@@ -9,10 +9,10 @@ public:
     void TailRecur(int n);
     void HeadRecur(int n);
     void TreeRecur(int n);
-    void indirectRecur(int n);
     int sum(int n);
     int factorial(int n);
     int power(int m, int n);
     int taylor(int x, int n);
+    int fib(int n);
 };
 #endif //STRUCTURES_RECURRENCERELATION_H

@@ -128,6 +128,30 @@ Structures/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/build
 .PHONY : Structures/fast
 
+STL/Basics/BasicSTL.obj: STL/Basics/BasicSTL.cpp.obj
+.PHONY : STL/Basics/BasicSTL.obj
+
+# target to build an object file
+STL/Basics/BasicSTL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/STL/Basics/BasicSTL.cpp.obj
+.PHONY : STL/Basics/BasicSTL.cpp.obj
+
+STL/Basics/BasicSTL.i: STL/Basics/BasicSTL.cpp.i
+.PHONY : STL/Basics/BasicSTL.i
+
+# target to preprocess a source file
+STL/Basics/BasicSTL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/STL/Basics/BasicSTL.cpp.i
+.PHONY : STL/Basics/BasicSTL.cpp.i
+
+STL/Basics/BasicSTL.s: STL/Basics/BasicSTL.cpp.s
+.PHONY : STL/Basics/BasicSTL.s
+
+# target to generate assembly for a file
+STL/Basics/BasicSTL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/STL/Basics/BasicSTL.cpp.s
+.PHONY : STL/Basics/BasicSTL.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -425,6 +449,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Structures
+	@echo ... STL/Basics/BasicSTL.obj
+	@echo ... STL/Basics/BasicSTL.i
+	@echo ... STL/Basics/BasicSTL.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

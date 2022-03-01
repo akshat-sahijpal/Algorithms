@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/STL/Basics/BasicSTL.cpp">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/STL/Basics/BasicSTL.h">
+			<Option target="Structures"/>
+		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Algo 2022/STL/Containers.h">
 			<Option target="Structures"/>
 		</Unit>

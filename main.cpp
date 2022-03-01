@@ -2,6 +2,7 @@
 #include "scratch/ADT/ADT.h"
 #include "scratch/LinkedList/LinkedList.h"
 #include "scratch/Priority Queue/PQueue.h"
+#include "STL/Basics/BasicSTL.h"
 #define print(x) std::cout << x << std::endl;
 void ADTimpl() {
     int *arr = new int[] {1,2,3,4,5,6};
@@ -42,6 +43,11 @@ void PriorityQueue () {
     pQueue->enqueue(3211, Priority::Low);
     pQueue->watch();
 }
+void STL() {
+    BasicSTL* basicStl = new BasicSTL();
+    basicStl->StlList();
+}
 int main() {
+    STL();
     return 0;
 }

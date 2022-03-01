@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Structures.dir/STL/Basics/BasicSTL.cpp.obj"
+  "CMakeFiles/Structures.dir/STL/Basics/BasicSTL.cpp.obj.d"
   "CMakeFiles/Structures.dir/main.cpp.obj"
   "CMakeFiles/Structures.dir/main.cpp.obj.d"
   "CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj"

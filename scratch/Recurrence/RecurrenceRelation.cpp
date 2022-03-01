@@ -53,3 +53,7 @@ int Recurrence::taylor(int x, int n) {
     fact = fact * n;
     return res + power / fact;
 }
+int Recurrence::fib(int n) {
+    if(n <= 1) return n;
+    return fib(n-2) + fib(n-1);
+}

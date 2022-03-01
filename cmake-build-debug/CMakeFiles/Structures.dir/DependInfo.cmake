@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/Projects/Clion Projects/Algo 2022/STL/Basics/BasicSTL.cpp" "CMakeFiles/Structures.dir/STL/Basics/BasicSTL.cpp.obj" "gcc" "CMakeFiles/Structures.dir/STL/Basics/BasicSTL.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/main.cpp" "CMakeFiles/Structures.dir/main.cpp.obj" "gcc" "CMakeFiles/Structures.dir/main.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/scratch/ADT/ADT.cpp" "CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/ADT/ADT.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/scratch/CircularLinkedList/CircularLinkedList.cpp" "CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj.d"
