@@ -157,6 +157,12 @@
 		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/Trees/Base/Tree.h">
 			<Option target="Structures"/>
 		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/Trees/BinaryTree/BinaryTree.cpp">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/Trees/BinaryTree/BinaryTree.h">
+			<Option target="Structures"/>
+		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Algo 2022/util/ArrayInstance.cpp">
 			<Option target="Structures"/>
 		</Unit>

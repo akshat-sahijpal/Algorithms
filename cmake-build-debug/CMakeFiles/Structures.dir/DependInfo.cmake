@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Projects/Clion Projects/Algo 2022/scratch/Recurrence/RecurrenceRelation.cpp" "CMakeFiles/Structures.dir/scratch/Recurrence/RecurrenceRelation.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/Recurrence/RecurrenceRelation.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/scratch/Stack/Stack.cpp" "CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/Stack/Stack.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/scratch/Trees/Base/Tree.cpp" "CMakeFiles/Structures.dir/scratch/Trees/Base/Tree.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/Trees/Base/Tree.cpp.obj.d"
+  "D:/Projects/Clion Projects/Algo 2022/scratch/Trees/BinaryTree/BinaryTree.cpp" "CMakeFiles/Structures.dir/scratch/Trees/BinaryTree/BinaryTree.cpp.obj" "gcc" "CMakeFiles/Structures.dir/scratch/Trees/BinaryTree/BinaryTree.cpp.obj.d"
   "D:/Projects/Clion Projects/Algo 2022/util/ArrayInstance.cpp" "CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj" "gcc" "CMakeFiles/Structures.dir/util/ArrayInstance.cpp.obj.d"
   )
 

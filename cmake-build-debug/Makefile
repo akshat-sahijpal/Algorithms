@@ -416,6 +416,30 @@ scratch/Trees/Base/Tree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Trees/Base/Tree.cpp.s
 .PHONY : scratch/Trees/Base/Tree.cpp.s
 
+scratch/Trees/BinaryTree/BinaryTree.obj: scratch/Trees/BinaryTree/BinaryTree.cpp.obj
+.PHONY : scratch/Trees/BinaryTree/BinaryTree.obj
+
+# target to build an object file
+scratch/Trees/BinaryTree/BinaryTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Trees/BinaryTree/BinaryTree.cpp.obj
+.PHONY : scratch/Trees/BinaryTree/BinaryTree.cpp.obj
+
+scratch/Trees/BinaryTree/BinaryTree.i: scratch/Trees/BinaryTree/BinaryTree.cpp.i
+.PHONY : scratch/Trees/BinaryTree/BinaryTree.i
+
+# target to preprocess a source file
+scratch/Trees/BinaryTree/BinaryTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Trees/BinaryTree/BinaryTree.cpp.i
+.PHONY : scratch/Trees/BinaryTree/BinaryTree.cpp.i
+
+scratch/Trees/BinaryTree/BinaryTree.s: scratch/Trees/BinaryTree/BinaryTree.cpp.s
+.PHONY : scratch/Trees/BinaryTree/BinaryTree.s
+
+# target to generate assembly for a file
+scratch/Trees/BinaryTree/BinaryTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Trees/BinaryTree/BinaryTree.cpp.s
+.PHONY : scratch/Trees/BinaryTree/BinaryTree.cpp.s
+
 util/ArrayInstance.obj: util/ArrayInstance.cpp.obj
 .PHONY : util/ArrayInstance.obj
 
@@ -485,6 +509,9 @@ help:
 	@echo ... scratch/Trees/Base/Tree.obj
 	@echo ... scratch/Trees/Base/Tree.i
 	@echo ... scratch/Trees/Base/Tree.s
+	@echo ... scratch/Trees/BinaryTree/BinaryTree.obj
+	@echo ... scratch/Trees/BinaryTree/BinaryTree.i
+	@echo ... scratch/Trees/BinaryTree/BinaryTree.s
 	@echo ... util/ArrayInstance.obj
 	@echo ... util/ArrayInstance.i
 	@echo ... util/ArrayInstance.s

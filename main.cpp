@@ -3,6 +3,8 @@
 #include "scratch/LinkedList/LinkedList.h"
 #include "scratch/Priority Queue/PQueue.h"
 #include "STL/Basics/BasicSTL.h"
+#include <vector>
+#include "scratch/Trees/BinaryTree/BinaryTree.h"
 #define print(x) std::cout << x << std::endl;
 void ADTimpl() {
     int *arr = new int[] {1,2,3,4,5,6};
@@ -47,7 +49,23 @@ void STL() {
     BasicSTL* basicStl = new BasicSTL();
     basicStl->StlList();
 }
+void BinaryTree(){
+    Btree* btree = new Btree();
+    auto root = btree->constructRandomTree();
+    auto depthTravList = btree->DepthTraversal(root);
+    p("Depth Traversed List:")
+    for(std::vector<char*>::iterator itr = depthTravList.begin();
+    itr < depthTravList.end(); itr++){
+        p(*itr)
+    }
+    auto depthTravList2 = btree->RecurDepthTraversal(root);
+    p("Depth Traversed List:")
+    for(std::vector<char*>::iterator itr = depthTravList.begin();
+    itr < depthTravList.end(); itr++){
+        p(*itr)
+    }
+}
 int main() {
-    STL();
+    BinaryTree();
     return 0;
 }

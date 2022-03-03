@@ -83,5 +83,4 @@ void BasicSTL::StlQueue() {
     q.push(3023);
     q.push(2232);
     p(q.front())
-    wchar_t
 }
