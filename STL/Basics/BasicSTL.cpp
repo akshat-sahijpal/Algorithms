@@ -82,5 +82,9 @@ void BasicSTL::StlQueue() {
     std::queue<int> q;
     q.push(3023);
     q.push(2232);
+    q.push(23232);
+    q.push(223232);
+    p(q.front())
+    q.pop();
     p(q.front())
 }

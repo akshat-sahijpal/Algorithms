@@ -47,7 +47,7 @@ void PriorityQueue () {
 }
 void STL() {
     BasicSTL* basicStl = new BasicSTL();
-    basicStl->StlList();
+    basicStl->StlQueue();
 }
 void BinaryTree(){
     Btree* btree = new Btree();
@@ -67,5 +67,6 @@ void BinaryTree(){
 }
 int main() {
     BinaryTree();
+
     return 0;
 }

@@ -7,6 +7,7 @@
 #include <stack>
 #include <algorithm>
 #include <iostream>
+#include<queue>
 #include<vector>
 #define p(x) std::cout << x << std::endl;
 class BNode{
@@ -28,9 +29,11 @@ public:
 class Btree{
 public:
     BNode* constructRandomTree();
-    std::vector<char*> DepthTraversal(BNode* root);
+    // Travs for the depth-wise
+    std::vector<char*> DepthTraversal(BNode* root); // uses stack in the backend
     // Uses recursive approach to solve depth first
     std::vector<char*> RecurDepthTraversal(BNode* root);
-
+    // Travs for the level-wise
+    std::vector<char *> BreathFirstTraversal(BNode* root); // uses queue in the backend
 };
 #endif //STRUCTURES_BINARYTREE_H

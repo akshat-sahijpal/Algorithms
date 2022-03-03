@@ -4,7 +4,7 @@
 
 #include "BinaryTree.h"
 
-BNode* Btree::constructRandomTree() {
+BNode *Btree::constructRandomTree() {
     BNode *a = new BNode("a");
     BNode *b = new BNode("b");
     BNode *c = new BNode("c");
@@ -20,6 +20,7 @@ BNode* Btree::constructRandomTree() {
     c->left = g;
     return a;
 }
+
 /**
  * DepthFirst Trav:
  *   in it the goal is to traverse the deepest node first
@@ -30,31 +31,57 @@ BNode* Btree::constructRandomTree() {
  *   then the top most element from the stack is removed and placed under the label "current"
  *   the childrens of that "current" node are observed then
  * */
-std::vector<char*> Btree::DepthTraversal(BNode* root) {
-    if(root == nullptr) return std::vector<char *>();
-    std::vector<char*>* traversedList = new std::vector<char*>();
-    std::stack<BNode>* active_elements = new std::stack<BNode>();
+std::vector<char *> Btree::DepthTraversal(BNode *root) {
+    if (root == nullptr) return std::vector<char *>();
+    std::vector<char *> *traversedList = new std::vector<char *>();// List of visited nodes
+    std::stack<BNode> *active_elements = new std::stack<BNode>(); // Stack in which the node is stored
     active_elements->push(*root); // init value of a stack
-    while (active_elements->size() > 0 ){
+    while (active_elements->size() > 0) {
         BNode current_node = active_elements->top();
         active_elements->pop();
         traversedList->push_back(current_node.data);
-        if(current_node.right != nullptr) active_elements->push(*current_node.right);
-        if(current_node.left != nullptr) active_elements->push(*current_node.left);
+        if (current_node.right != nullptr) active_elements->push(*current_node.right);
+        if (current_node.left != nullptr) active_elements->push(*current_node.left);
     }
     return *traversedList;
 }
 
 std::vector<char *> Btree::RecurDepthTraversal(BNode *root) {
-    std::vector<char*>* traversedList = new std::vector<char*>();
+    std::vector<char *> *traversedList = new std::vector<char *>();
     traversedList->push_back(root->data);
-    if(root == nullptr) return std::vector<char *>();
+    if (root == nullptr) return std::vector<char *>();
     auto leftSide = RecurDepthTraversal(root->left);
     auto rightSide = RecurDepthTraversal(root->right);
-     std::merge(traversedList->begin(),
+    /*std::merge(traversedList->begin(),
                       traversedList->end(),
                       leftSide.begin(), leftSide.end(),
-                      rightSide.begin(), rightSide.end());
+                      rightSide.begin(), rightSide.end());*/
+    return *traversedList;
+}
+
+/**
+ * Checks for the level wise
+ *    it first travs from root to the children of the root, from left to right at same level
+ *    then at another level.
+ *    It uses queue in the backend
+ *    when traversal starts it goes from root, the root element
+ *    is added to the queue now the front element is the root node
+ *    then pop the front element from the queue into "current" state [a state in which the node is being explored]
+ *    ["current": Node is being visited] look for the "current" states children and add them
+ *    to the queue [from left to right] Now the front of the queue will be the left
+ *    node.
+ *    Repeat
+ * */
+std::vector<char *> Btree::BreathFirstTraversal(BNode *root) {
+    std::vector<char *> *traversedList = new std::vector<char *>();// List of visited nodes
+    std::queue<BNode> *active_elements = new std::queue<BNode>(); // Queue in which the node is stored
+    while (active_elements->size() > 0) {
+        BNode current = active_elements->front();
+        active_elements->pop();
+        traversedList->push_back(current.data);
+        if(current.left != nullptr) active_elements->push(*current.left);
+        if(current.right!= nullptr) active_elements->push(*current.right);
+    }
     return *traversedList;
 }
 
