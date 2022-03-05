@@ -35,5 +35,9 @@ public:
     std::vector<char*> RecurDepthTraversal(BNode* root);
     // Travs for the level-wise
     std::vector<char *> BreathFirstTraversal(BNode* root); // uses queue in the backend
+    // Breath first search algo for searching an element in the tree
+    bool BFS_unopt(BNode* root, char* element);
+    bool BFS_opt(BNode* root, char* element);
+
 };
 #endif //STRUCTURES_BINARYTREE_H

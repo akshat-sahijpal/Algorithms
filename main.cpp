@@ -52,21 +52,9 @@ void STL() {
 void BinaryTree(){
     Btree* btree = new Btree();
     auto root = btree->constructRandomTree();
-    auto depthTravList = btree->DepthTraversal(root);
-    p("Depth Traversed List:")
-    for(std::vector<char*>::iterator itr = depthTravList.begin();
-    itr < depthTravList.end(); itr++){
-        p(*itr)
-    }
-    auto depthTravList2 = btree->RecurDepthTraversal(root);
-    p("Depth Traversed List:")
-    for(std::vector<char*>::iterator itr = depthTravList.begin();
-    itr < depthTravList.end(); itr++){
-        p(*itr)
-    }
+    btree->BFS(root, "e");
 }
 int main() {
     BinaryTree();
-
     return 0;
 }

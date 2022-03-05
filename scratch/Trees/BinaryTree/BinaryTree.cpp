@@ -73,15 +73,46 @@ std::vector<char *> Btree::RecurDepthTraversal(BNode *root) {
  *    Repeat
  * */
 std::vector<char *> Btree::BreathFirstTraversal(BNode *root) {
+    if (root == nullptr) return std::vector<char *>();
     std::vector<char *> *traversedList = new std::vector<char *>();// List of visited nodes
     std::queue<BNode> *active_elements = new std::queue<BNode>(); // Queue in which the node is stored
+    active_elements->push(*root);
     while (active_elements->size() > 0) {
         BNode current = active_elements->front();
         active_elements->pop();
         traversedList->push_back(current.data);
-        if(current.left != nullptr) active_elements->push(*current.left);
-        if(current.right!= nullptr) active_elements->push(*current.right);
+        if (current.left != nullptr) active_elements->push(*current.left);
+        if (current.right != nullptr) active_elements->push(*current.right);
     }
     return *traversedList;
 }
+// unoptimized way
+bool Btree::BFS_unopt(BNode *root, char* element) {
+    if (root == nullptr) return false;
+    auto breathTravList = BreathFirstTraversal(root);
+    for(std::vector<char*>::iterator itr = breathTravList.begin();
+        itr < breathTravList.end(); itr++){
+        p(*itr)
+        if(*itr == element){
+            p("Found!!")
+            return true;
+        }
+    }
+    return false;
+}
 
+bool Btree::BFS_opt(BNode *root, char *element) {
+    if (root == nullptr) return false;
+    std::queue<BNode> *active_elements = new std::queue<BNode>(); // Queue in which the node is stored
+    active_elements->push(*root);
+    while (active_elements->size() > 0) {
+        BNode current = active_elements->front();
+        active_elements->pop();
+        if(current.data == element){
+            return true;
+        }
+        if (current.left != nullptr) active_elements->push(*current.left);
+        if (current.right != nullptr) active_elements->push(*current.right);
+    }
+    return false;
+}
