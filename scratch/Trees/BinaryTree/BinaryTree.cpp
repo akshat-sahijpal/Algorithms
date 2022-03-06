@@ -20,7 +20,22 @@ BNode *Btree::constructRandomTree() {
     c->left = g;
     return a;
 }
-
+NBode *Btree::generateIntTree() {
+    NBode *a = new NBode(1);
+    NBode *b = new NBode(12);
+    NBode *c = new NBode(13);
+    NBode *d = new NBode(14);
+    NBode *e = new NBode(15);
+    NBode *f = new NBode(16);
+    NBode *g = new NBode(17);
+    a->left = b;
+    a->right = c;
+    b->left = e;
+    b->right = f;
+    c->right = d;
+    c->left = g;
+    return a;
+}
 /**
  * DepthFirst Trav:
  *   in it the goal is to traverse the deepest node first
@@ -115,4 +130,30 @@ bool Btree::BFS_opt(BNode *root, char *element) {
         if (current.right != nullptr) active_elements->push(*current.right);
     }
     return false;
+}
+
+bool Btree::BFS_recur(BNode *root, char *element) {
+    if(root== nullptr) return false;
+    if(root->data == element) return true;
+    return BFS_recur(root->left, element) || BFS_recur(root->right, element);
+}
+
+int Btree::sumOfTree(NBode* root) {
+    if(root== nullptr) return 0;
+    return root->data + sumOfTree(root->left) + sumOfTree(root->right);
+}
+
+int Btree::sumOfTreeItr(NBode *root) {
+    int sum = 0;
+    if(root == nullptr) return 0;
+    std::queue<NBode>* vlr = new std::queue<NBode>();
+    vlr->push(root->data);
+    while(vlr->size()>0){
+        auto current = vlr->front();
+        vlr->pop();
+        sum += current.data;
+        if (current.left != nullptr) vlr->push(*current.left);
+        if (current.right != nullptr) vlr->push(*current.right);
+    }
+    return sum;
 }

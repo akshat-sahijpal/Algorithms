@@ -51,8 +51,12 @@ void STL() {
 }
 void BinaryTree(){
     Btree* btree = new Btree();
-    auto root = btree->constructRandomTree();
-    btree->BFS(root, "e");
+/*    auto root = btree->constructRandomTree();
+    if(btree->BFS_recur(root, "e")){
+        std::cout << "Found " << std::endl;
+    }*/
+    auto tr = btree->generateIntTree();
+    p(btree->sumOfTree(tr))
 }
 int main() {
     BinaryTree();

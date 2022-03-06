@@ -21,6 +21,17 @@ public:
         this->right = nullptr;
     }
 };
+class NBode{
+public:
+    int data;
+    NBode* left;
+    NBode* right;
+    NBode(int data){
+        this->data = data;
+        this->left = nullptr;
+        this->right = nullptr;
+    }
+};
 /**
  * Binary Tree can only have at most two children's
  * BTree can have a single node only
@@ -29,6 +40,7 @@ public:
 class Btree{
 public:
     BNode* constructRandomTree();
+    NBode* generateIntTree();
     // Travs for the depth-wise
     std::vector<char*> DepthTraversal(BNode* root); // uses stack in the backend
     // Uses recursive approach to solve depth first
@@ -38,6 +50,9 @@ public:
     // Breath first search algo for searching an element in the tree
     bool BFS_unopt(BNode* root, char* element);
     bool BFS_opt(BNode* root, char* element);
-
+    bool BFS_recur(BNode* root, char* element);
+    // Finds the sum of the tree
+    int sumOfTree(NBode* root);
+    int sumOfTreeItr(NBode* root);
 };
 #endif //STRUCTURES_BINARYTREE_H
