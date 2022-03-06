@@ -21,7 +21,7 @@ BNode *Btree::constructRandomTree() {
     return a;
 }
 NBode *Btree::generateIntTree() {
-    NBode *a = new NBode(1);
+    NBode *a = new NBode(10);
     NBode *b = new NBode(12);
     NBode *c = new NBode(13);
     NBode *d = new NBode(14);
@@ -156,4 +156,35 @@ int Btree::sumOfTreeItr(NBode *root) {
         if (current.right != nullptr) vlr->push(*current.right);
     }
     return sum;
+}
+
+int Btree::minValTree(NBode *root) {
+    int min = 100000;
+    if(root == nullptr) return 0;
+    std::queue<NBode>* vlr = new std::queue<NBode>();
+    vlr->push(root->data);
+    while(vlr->size()>0){
+        auto current = vlr->front();
+        vlr->pop();
+        if(current.data < min) min = current.data;
+        if (current.left != nullptr) vlr->push(*current.left);
+        if (current.right != nullptr) vlr->push(*current.right);
+    }
+    return min;
+}
+
+int Btree::minValTreeRecur(NBode *root) {
+    if(root== nullptr) return 100000;
+    return findMin(root->data,minValTreeRecur(root->left),
+                    minValTreeRecur(root->right));
+}
+
+int Btree::findMin(int a, int b, int c) {
+    if(a<b && a<c) return a;
+    if(b<a && b<c) return b;
+    if(c<a && c<b) return c;
+}
+
+int Btree::rootToLeafPath(NBode* root) {
+    return 0;
 }

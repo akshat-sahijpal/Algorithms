@@ -56,7 +56,7 @@ void BinaryTree(){
         std::cout << "Found " << std::endl;
     }*/
     auto tr = btree->generateIntTree();
-    p(btree->sumOfTree(tr))
+    p(btree->minValTreeRecur(tr))
 }
 int main() {
     BinaryTree();

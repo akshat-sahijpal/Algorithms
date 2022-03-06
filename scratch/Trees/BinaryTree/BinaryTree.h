@@ -6,6 +6,7 @@
 #define STRUCTURES_BINARYTREE_H
 #include <stack>
 #include <algorithm>
+#include<cmath>
 #include <iostream>
 #include<queue>
 #include<vector>
@@ -40,6 +41,7 @@ public:
 class Btree{
 public:
     BNode* constructRandomTree();
+    int findMin(int a, int b, int c);
     NBode* generateIntTree();
     // Travs for the depth-wise
     std::vector<char*> DepthTraversal(BNode* root); // uses stack in the backend
@@ -54,5 +56,8 @@ public:
     // Finds the sum of the tree
     int sumOfTree(NBode* root);
     int sumOfTreeItr(NBode* root);
+    int minValTree(NBode* root);
+    int minValTreeRecur(NBode* root);
+    int rootToLeafPath(NBode* root);
 };
 #endif //STRUCTURES_BINARYTREE_H
