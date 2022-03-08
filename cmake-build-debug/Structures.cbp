@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/Algorithms/DP/FibMemoization.h">
+			<Option target="Structures"/>
+		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Algo 2022/STL/Basics/BasicSTL.cpp">
 			<Option target="Structures"/>
 		</Unit>
@@ -113,6 +116,12 @@
 			<Option target="Structures"/>
 		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/CircularQueue/CircularQueue.h">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/Graphs/Graphs.cpp">
+			<Option target="Structures"/>
+		</Unit>
+		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/Graphs/Graphs.h">
 			<Option target="Structures"/>
 		</Unit>
 		<Unit filename="D:/Projects/Clion Projects/Algo 2022/scratch/LinkedList/LinkedList.cpp">

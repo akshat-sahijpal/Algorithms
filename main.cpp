@@ -4,7 +4,10 @@
 #include "scratch/Priority Queue/PQueue.h"
 #include "STL/Basics/BasicSTL.h"
 #include <vector>
+#include<map>
 #include "scratch/Trees/BinaryTree/BinaryTree.h"
+#include "Algorithms/DP/FibMemoization.h"
+
 #define print(x) std::cout << x << std::endl;
 void ADTimpl() {
     int *arr = new int[] {1,2,3,4,5,6};
@@ -49,6 +52,22 @@ void STL() {
     BasicSTL* basicStl = new BasicSTL();
     basicStl->StlQueue();
 }
+void dictionary(){
+    std::map<int, int> m {
+            {
+                1, 20
+            },
+            {
+                20, 30
+            },
+            {
+                300, 10
+            }
+    };
+    for (auto i : m){
+        p(i.second)
+    }
+}
 void BinaryTree(){
     Btree* btree = new Btree();
 /*    auto root = btree->constructRandomTree();
@@ -58,7 +77,12 @@ void BinaryTree(){
     auto tr = btree->generateIntTree();
     p(btree->minValTreeRecur(tr))
 }
+void DynamicProgramming(){
+    FibMemoization* fib = new FibMemoization();
+    std::map<int, int> a {};
+    p(fib->FibOptimizedMemoization(5, a))
+}
 int main() {
-    BinaryTree();
+    DynamicProgramming();
     return 0;
 }
