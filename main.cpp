@@ -52,7 +52,7 @@ void STL() {
     BasicSTL* basicStl = new BasicSTL();
     basicStl->StlQueue();
 }
-void dictionary(){
+bool dictionary(int x){
     std::map<int, int> m {
             {
                 1, 20
@@ -64,9 +64,12 @@ void dictionary(){
                 300, 10
             }
     };
-    for (auto i : m){
-        p(i.second)
+    for(std::pair<int,int> pt : m){
+        if(pt.first==x){
+            return 1;
+        }
     }
+    return 0;
 }
 void BinaryTree(){
     Btree* btree = new Btree();
@@ -80,7 +83,8 @@ void BinaryTree(){
 void DynamicProgramming(){
     FibMemoization* fib = new FibMemoization();
     std::map<int, int> a {};
-    p(fib->FibOptimizedMemoization(5, a))
+    //p(fib->FibUnOptimized(5))
+    p(fib->FibOptimizedMemoization(50, a))
 }
 int main() {
     DynamicProgramming();
