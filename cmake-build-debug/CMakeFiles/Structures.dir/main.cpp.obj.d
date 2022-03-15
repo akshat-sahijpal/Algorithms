@@ -162,12 +162,12 @@ CMakeFiles/Structures.dir/main.cpp.obj: \
  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
  D:\Projects\Clion\ Projects\Algo\ 2022\scratch/LinkedList/LinkedList.h \
- D:\Projects\Clion\ Projects\Algo\ 2022\scratch/Priority\ Queue/PQueue.h \
- D:\Projects\Clion\ Projects\Algo\ 2022\STL/Basics/BasicSTL.h \
  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
+ D:\Projects\Clion\ Projects\Algo\ 2022\scratch/Priority\ Queue/PQueue.h \
+ D:\Projects\Clion\ Projects\Algo\ 2022\STL/Basics/BasicSTL.h \
  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_deque.h \
  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/deque.tcc \

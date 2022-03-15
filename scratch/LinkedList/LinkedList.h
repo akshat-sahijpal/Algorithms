@@ -2,6 +2,7 @@
 #ifndef STRUCTURES_LINKEDLIST_H
 #define STRUCTURES_LINKEDLIST_H
 #include <iostream>
+#include <vector>
 #define print(x) std::cout<<x<<std::endl;
 struct Node {
     int data;
@@ -23,6 +24,7 @@ public:
     void showAll(struct Node *p);
     int sum();
     int max(struct Node *nod);
+    struct Node* generateLinkedListFromList(std::vector<int>* list);
     // Linear Search
     struct Node *findElement(struct Node *crNode, int element);
     struct Node *findElementAtIndex(int index);

@@ -324,12 +324,12 @@ CMakeFiles/Structures.dir/main.cpp.obj: ../main.cpp \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
   ../scratch/LinkedList/LinkedList.h \
-  ../scratch/Priority\ Queue/PQueue.h \
-  ../STL/Basics/BasicSTL.h \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
+  ../scratch/Priority\ Queue/PQueue.h \
+  ../STL/Basics/BasicSTL.h \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_deque.h \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/deque.tcc \
@@ -545,8 +545,6 @@ CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj:
 
 CMakeFiles/Structures.dir/scratch/CircularQueue/CircularQueue.cpp.obj: ../scratch/CircularQueue/CircularQueue.cpp
 
-CMakeFiles/Structures.dir/scratch/Graphs/Graphs.cpp.obj: ../scratch/Graphs/Graphs.cpp
-
 CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj: ../scratch/LinkedList/LinkedList.cpp \
   ../scratch/LinkedList/LinkedList.h \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
@@ -683,7 +681,12 @@ CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj: ../scratch/Link
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
-  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
+  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
+  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
+  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
+  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
+  D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
 
 CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj: ../scratch/Matricies/Matrices.cpp \
   ../scratch/Matricies/Matrices.h \
@@ -2160,8 +2163,6 @@ D:/Clion/CLion\ 2021.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
 ../scratch/CircularLinkedList/CircularLinkedList.cpp:
 
 ../scratch/CircularQueue/CircularQueue.cpp:
-
-../scratch/Graphs/Graphs.cpp:
 
 ../scratch/LinkedList/LinkedList.cpp:
 

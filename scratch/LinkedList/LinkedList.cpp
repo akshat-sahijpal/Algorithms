@@ -29,13 +29,14 @@ void LinkedList::insert(int element) {
     this->lastNode->nextLink = temp;// this last node now is no more the last node it is the second last node now, last node being the temp
     this->lastNode = temp;
     this->length++;
+    delete temp;
 }
 
 int LinkedList::getLength() {
     return this->length;
 }
 
-void LinkedList::see(struct Node* list, int length) {
+void LinkedList::see(struct Node *list, int length) {
     auto temp = list;
     for (int i = 0; i < length; i++) {
         print(temp->data)
@@ -52,12 +53,13 @@ void LinkedList::deleteAtFirst() {
     this->firstNode = this->firstNode->nextLink;
     delete[] first;
 }
+
 // Not Built
 void LinkedList::deleteAtElement(int element) {
     auto firstNode = this->firstNode;
     int counter = 0;
     while (firstNode != NULL) {
-        if(firstNode->data == element){
+        if (firstNode->data == element) {
             auto thatNode = firstNode;
         }
         firstNode = firstNode->nextLink;
@@ -173,7 +175,7 @@ struct Node *LinkedList::reverseLinkedListLinks(Node *list, int size) {
     p = list;
     q = NULL;
     r = NULL;
-    while (p!=NULL){
+    while (p != NULL) {
         r = q;
         q = p;
         p = p->nextLink;
@@ -184,9 +186,23 @@ struct Node *LinkedList::reverseLinkedListLinks(Node *list, int size) {
 }
 
 struct Node *LinkedList::reverseUsingRecursion(Node *q, Node *p) {
-    if(p!=NULL){
+    if (p != NULL) {
         reverseUsingRecursion(p, p->nextLink);
         q = p->nextLink;
     }
     return q;
+}
+
+struct Node *LinkedList::generateLinkedListFromList(std::vector<int> *list) {
+    struct Node *p;
+    p->data = 10000;
+    p->nextLink = nullptr;
+    for (auto i: *list) {
+        struct Node* q;
+        q->data = i;
+        q->nextLink = p;
+        p = q;
+        delete q;
+    }
+    return p;
 }

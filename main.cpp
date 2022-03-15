@@ -7,6 +7,7 @@
 #include<map>
 #include "scratch/Trees/BinaryTree/BinaryTree.h"
 #include "Algorithms/DP/FibMemoization.h"
+#include "scratch/Graphs/Graphs.h"
 
 #define print(x) std::cout << x << std::endl;
 void ADTimpl() {
@@ -24,10 +25,13 @@ void ADTimpl() {
     print(adt->binSearch(0, 5, 6/2, 3))
 }
 void LinkedListImpl() {
+   //// std::vector<int> a {1,2,3,4};
   auto* list = new LinkedList();
-  int *set = new int [] {1,2,3,4,5,6};
-    struct Node * List = list->init(set, 6);
-    list->see(List, list->getLength());
+  list->insert(69);
+  list->insert(40);
+  std::cout <<list->getLength();
+
+  ///list->showAll(list->generateLinkedListFromList(&a));
 }
 void PriorityQueue () {
     PQueue* pQueue = new PQueue();
@@ -86,7 +90,12 @@ void DynamicProgramming(){
     //p(fib->FibUnOptimized(5))
     p(fib->FibOptimizedMemoization(45, a))
 }
+void Graph(){
+    Graphs* graphs = new Graphs();
+    graphs->breadthFirstTraversalGraph(graphs->generateRandomGraph(), "a");
+    graphs->depthFirstTraversalGraph(graphs->generateRandomGraph(), "a");
+}
 int main() {
-    DynamicProgramming();
+    LinkedListImpl();
     return 0;
 }

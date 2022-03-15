@@ -248,30 +248,6 @@ scratch/CircularQueue/CircularQueue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/CircularQueue/CircularQueue.cpp.s
 .PHONY : scratch/CircularQueue/CircularQueue.cpp.s
 
-scratch/Graphs/Graphs.obj: scratch/Graphs/Graphs.cpp.obj
-.PHONY : scratch/Graphs/Graphs.obj
-
-# target to build an object file
-scratch/Graphs/Graphs.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Graphs/Graphs.cpp.obj
-.PHONY : scratch/Graphs/Graphs.cpp.obj
-
-scratch/Graphs/Graphs.i: scratch/Graphs/Graphs.cpp.i
-.PHONY : scratch/Graphs/Graphs.i
-
-# target to preprocess a source file
-scratch/Graphs/Graphs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Graphs/Graphs.cpp.i
-.PHONY : scratch/Graphs/Graphs.cpp.i
-
-scratch/Graphs/Graphs.s: scratch/Graphs/Graphs.cpp.s
-.PHONY : scratch/Graphs/Graphs.s
-
-# target to generate assembly for a file
-scratch/Graphs/Graphs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Graphs/Graphs.cpp.s
-.PHONY : scratch/Graphs/Graphs.cpp.s
-
 scratch/LinkedList/LinkedList.obj: scratch/LinkedList/LinkedList.cpp.obj
 .PHONY : scratch/LinkedList/LinkedList.obj
 
@@ -512,9 +488,6 @@ help:
 	@echo ... scratch/CircularQueue/CircularQueue.obj
 	@echo ... scratch/CircularQueue/CircularQueue.i
 	@echo ... scratch/CircularQueue/CircularQueue.s
-	@echo ... scratch/Graphs/Graphs.obj
-	@echo ... scratch/Graphs/Graphs.i
-	@echo ... scratch/Graphs/Graphs.s
 	@echo ... scratch/LinkedList/LinkedList.obj
 	@echo ... scratch/LinkedList/LinkedList.i
 	@echo ... scratch/LinkedList/LinkedList.s
