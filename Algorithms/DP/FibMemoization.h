@@ -10,7 +10,6 @@
 
 #include <map>
 #include<iostream>
-
 class FibMemoization {
 public:
     int FibUnOptimized(int n) {
@@ -21,12 +20,14 @@ public:
     /**
      * Memoization: Cache the results to use them later on
      * */
-     int FibOptimizedMemoization(int n, std::map<int, int> &memo) {
+     long int FibOptimizedMemoization(int n, std::map<long int,long int> memo) {
         if (n <= 2) return 1;
         if (memo.find(n) != memo.end()) return memo[n];
-        memo[n] = FibOptimizedMemoization(n - 1, memo) + FibOptimizedMemoization(n - 2, memo);
+        memo[n] = FibOptimizedMemoization(n - 1, memo)
+                + FibOptimizedMemoization(n - 2, memo);
         return memo[n];
     }
+
  /* def FibMemoization(n, memo={}):
     if n in memo: return memo[n]
     if n <= 2: return 1

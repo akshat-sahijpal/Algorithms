@@ -82,9 +82,9 @@ void BinaryTree(){
 }
 void DynamicProgramming(){
     FibMemoization* fib = new FibMemoization();
-    std::map<int, int> a {};
+    std::map<long int,long int> a {};
     //p(fib->FibUnOptimized(5))
-    p(fib->FibOptimizedMemoization(50, a))
+    p(fib->FibOptimizedMemoization(45, a))
 }
 int main() {
     DynamicProgramming();
