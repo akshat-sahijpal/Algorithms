@@ -4,11 +4,11 @@
 #include "scratch/Priority Queue/PQueue.h"
 #include "STL/Basics/BasicSTL.h"
 #include <vector>
-#include<map>
+#include <map>
 #include "scratch/Trees/BinaryTree/BinaryTree.h"
 #include "Algorithms/DP/FibMemoization.h"
 #include "scratch/Graphs/Graphs.h"
-
+using namespace std;
 #define print(x) std::cout << x << std::endl;
 void ADTimpl() {
     int *arr = new int[] {1,2,3,4,5,6};
@@ -95,7 +95,11 @@ void Graph(){
     graphs->breadthFirstTraversalGraph(graphs->generateRandomGraph(), "a");
     graphs->depthFirstTraversalGraph(graphs->generateRandomGraph(), "a");
 }
+void Mapper(){
+    
+}
 int main() {
     LinkedListImpl();
+
     return 0;
 }

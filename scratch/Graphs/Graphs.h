@@ -10,27 +10,27 @@
 #include<iostream>
 #include<string>
 #include <vector>
-
+using namespace std;
 class Graphs {
 
 public:
-    std::map<std::string, std::vector<std::string>> generateRandomGraph() {
-        std::map<std::string, std::vector<std::string>> graph;
+    map<string, vector<string>> generateRandomGraph() {
+        map<string, vector<string>> graph;
         graph.insert({{"a", {"c", "b"}},{"b", {"d"}},{"c", {"e"}},{"d", {"f"}},{"e", {}},{"f", {}}});
         return graph;
     }
     /**
      * It uses stack for operations
      * */
-    void depthFirstTraversalGraph(std::map<std::string, std::vector<std::string>> graph,
-                                  std::string source){
-        std::stack<std::string> observations;
+    void depthFirstTraversalGraph(map<string, vector<string>> graph,
+                                  string source){
+        stack<string> observations;
         observations.push(source);
-        std::string current;
+        string current;
         while (observations.size()!=0){
             current = observations.top();
             observations.pop();
-            std::cout << current;
+            cout << current;
             for (auto i : graph[current]){
                 observations.push(i);
             }
@@ -39,22 +39,19 @@ public:
     /**
      * It uses queues for operations
      * */
-    void breadthFirstTraversalGraph(std::map<std::string, std::vector<std::string>> graph,
-                                    std::string source){
-
-        std::queue<std::string> observations;
+     void breadthFirstTraversalGraph(map<string, vector<string>> graph, string source){
+        queue<string> observations;
         observations.push(source);
-        std::string current;
+        string current;
         while (observations.size()!=0){
             current = observations.front();
             observations.pop();
-            std::cout << current;
+            cout << current;
             for (auto i : graph[current]){
                 observations.push(i);
             }
         }
     }
-
 };
 
 #endif //STRUCTURES_GRAPHS_H

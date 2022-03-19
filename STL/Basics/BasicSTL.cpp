@@ -56,6 +56,7 @@ void BasicSTL::StlDeque() {
         dq.erase(dq.begin(), dq.begin() + 2);// Remove 2 elements
     }
 }
+
 /*
  * Uses doubly linked list
  * */
@@ -65,7 +66,7 @@ void BasicSTL::StlList() {
     l.push_front(201);
     l.push_front(210);
     l.push_back(122);
-    for(auto i : l){
+    for (auto i: l) {
         p(i)
     }
 }
@@ -87,4 +88,59 @@ void BasicSTL::StlQueue() {
     p(q.front())
     q.pop();
     p(q.front())
+}
+
+void BasicSTL::StlPriorityQueue() {
+    std::priority_queue<int> maxHeap;
+    maxHeap.push(200);
+    maxHeap.push(2300);
+    maxHeap.push(23600);
+    maxHeap.push(23450);
+    maxHeap.push(20460);
+    int sizeOfMaxHeap = maxHeap.size();
+    for (auto i = 0; i < sizeOfMaxHeap; i++) {
+        std::cout << maxHeap.top() << std::endl;
+        maxHeap.pop();
+    }
+    std::priority_queue<int, std::vector<int>, std::greater<int> > minHeap;
+    minHeap.push(200);
+    minHeap.push(2300);
+    minHeap.push(23600);
+    minHeap.push(23450);
+    minHeap.push(20460);
+    int sizeOfMinHeap = minHeap.size();
+    for (auto i = 0; i < sizeOfMinHeap; i++) {
+        std::cout << minHeap.top() << std::endl;
+        minHeap.pop();
+    }
+}
+
+void BasicSTL::StlSet() {
+    std::set<int> nm;
+    nm.insert(20023);
+    nm.insert(28292);
+    nm.insert(28932);
+    nm.insert(28292);
+    std::set<int>::iterator itr = nm.begin();
+    while (itr != nm.end()) {
+        itr++;
+        std::cout << (*itr) << std::endl;
+    }
+}
+
+void BasicSTL::STL_ALGOS() {
+    std::vector<int> i{1, 2, 3, 5, 32};
+    if (std::binary_search(i.begin(), i.end(), 32)) {
+        std::cout << "Found " << std::endl;
+    } else {
+        std::cout << "Not Found" << std::endl;
+    }
+    // For Each for_each(start, end, function)
+    std::for_each(i.begin(), i.end(), [](int n) {
+        std::cout << n + 100000 << std::endl;
+    });
+    std::pair<int, int> m;
+    m = std::make_pair(100, 30);
+        m = std::make_pair(1003, 330);
+    std::cout << m.first << m.second << std::endl;
 }
