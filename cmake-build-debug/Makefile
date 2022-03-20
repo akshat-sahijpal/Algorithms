@@ -248,6 +248,30 @@ scratch/CircularQueue/CircularQueue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/CircularQueue/CircularQueue.cpp.s
 .PHONY : scratch/CircularQueue/CircularQueue.cpp.s
 
+scratch/Heap/HeapImpl.obj: scratch/Heap/HeapImpl.cpp.obj
+.PHONY : scratch/Heap/HeapImpl.obj
+
+# target to build an object file
+scratch/Heap/HeapImpl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Heap/HeapImpl.cpp.obj
+.PHONY : scratch/Heap/HeapImpl.cpp.obj
+
+scratch/Heap/HeapImpl.i: scratch/Heap/HeapImpl.cpp.i
+.PHONY : scratch/Heap/HeapImpl.i
+
+# target to preprocess a source file
+scratch/Heap/HeapImpl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Heap/HeapImpl.cpp.i
+.PHONY : scratch/Heap/HeapImpl.cpp.i
+
+scratch/Heap/HeapImpl.s: scratch/Heap/HeapImpl.cpp.s
+.PHONY : scratch/Heap/HeapImpl.s
+
+# target to generate assembly for a file
+scratch/Heap/HeapImpl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Structures.dir\build.make CMakeFiles/Structures.dir/scratch/Heap/HeapImpl.cpp.s
+.PHONY : scratch/Heap/HeapImpl.cpp.s
+
 scratch/LinkedList/LinkedList.obj: scratch/LinkedList/LinkedList.cpp.obj
 .PHONY : scratch/LinkedList/LinkedList.obj
 
@@ -488,6 +512,9 @@ help:
 	@echo ... scratch/CircularQueue/CircularQueue.obj
 	@echo ... scratch/CircularQueue/CircularQueue.i
 	@echo ... scratch/CircularQueue/CircularQueue.s
+	@echo ... scratch/Heap/HeapImpl.obj
+	@echo ... scratch/Heap/HeapImpl.i
+	@echo ... scratch/Heap/HeapImpl.s
 	@echo ... scratch/LinkedList/LinkedList.obj
 	@echo ... scratch/LinkedList/LinkedList.i
 	@echo ... scratch/LinkedList/LinkedList.s

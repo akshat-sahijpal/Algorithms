@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Structures.dir/scratch/CircularLinkedList/CircularLinkedList.cpp.obj.d"
   "CMakeFiles/Structures.dir/scratch/CircularQueue/CircularQueue.cpp.obj"
   "CMakeFiles/Structures.dir/scratch/CircularQueue/CircularQueue.cpp.obj.d"
+  "CMakeFiles/Structures.dir/scratch/Heap/HeapImpl.cpp.obj"
+  "CMakeFiles/Structures.dir/scratch/Heap/HeapImpl.cpp.obj.d"
   "CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj"
   "CMakeFiles/Structures.dir/scratch/LinkedList/LinkedList.cpp.obj.d"
   "CMakeFiles/Structures.dir/scratch/Matricies/Matrices.cpp.obj"
