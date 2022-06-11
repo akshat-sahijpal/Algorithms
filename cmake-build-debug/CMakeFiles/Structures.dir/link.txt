@@ -1,3 +1,0 @@
-"D:\Clion\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Structures.dir/objects.a
-"D:\Clion\CLion 2021.3.2\bin\mingw\bin\ar.exe" qc CMakeFiles\Structures.dir/objects.a @CMakeFiles\Structures.dir\objects1.rsp
-"D:\Clion\CLion 2021.3.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\Structures.dir/objects.a -Wl,--no-whole-archive -o Structures.exe -Wl,--out-implib,libStructures.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Structures.dir\linklibs.rsp

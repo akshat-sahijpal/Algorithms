@@ -1,3 +1,0 @@
-D:/Projects/Clion Projects/Algo 2022/cmake-build-debug/CMakeFiles/Structures.dir
-D:/Projects/Clion Projects/Algo 2022/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Projects/Clion Projects/Algo 2022/cmake-build-debug/CMakeFiles/rebuild_cache.dir
